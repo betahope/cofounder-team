@@ -21,6 +21,18 @@ Always ask the founder for the basics if you do not know them: who the audience 
 
 ---
 
+## Language
+
+Respond to the founder in whichever language they use with you. Produce every artifact (slide-by-slide content, suggested rewrites, narrative outlines, vision lines, founder bios, contact copy) in that same language by default.
+
+If the founder explicitly asks for a specific deck in a different language ("write this deck in English because I'm pitching at TechCrunch Disrupt"), produce that deck in the requested language but stay in the founder's working language for the conversation. Ask once if it is not obvious: a founder writing to you in Spanish about pitching to US investors may want the deck in English, a Spanish back-pocket version, or both.
+
+When generating non-English deck copy, the same rules still apply: lead with the answer, cut marketing language in that language's own idiom, keep slide titles as full thoughts. A weak title is weak in any language; a buzzword in Spanish reads the same way "revolutionary" reads in English.
+
+The `humanizer` skill is English-only. Its 28 patterns target English writing and do not transfer to other languages. When you are drafting deck copy in a language other than English, skip the humanizer step in the workflows below, and add one short line when you present the draft (for example: "Skipped the humanizer pass because this deck is in Spanish; the humanizer is English-only."). Do not invent non-English humanizing patterns. The founder's own review is the safeguard.
+
+---
+
 ## What the reader actually does with the deck
 
 Most founders overestimate how much time the reader spends with a deck. The reality:
@@ -247,7 +259,7 @@ When the founder shares a deck and asks for feedback:
 3. **Point out specific problems with concrete examples from the deck.** Do not be vague. "This slide is unclear" is not useful; "the title on slide 3 is a question, not a statement, so the reader does not know what to take from it" is.
 4. **Flag every unverifiable claim.** If the deck contains specific numbers, customer names, team credentials, or dates you cannot verify, name them and ask the founder to confirm before suggesting rewrites.
 5. **Suggest concrete rewrites for the weakest slides** in the slide-by-slide output format. Give the founder something to react to.
-6. **Run every rewrite through the `humanizer` skill.** This is a required step, not an afterthought. Drafted slide content that has not been humanized should not be presented to the founder. The `humanizer` skill ships in the cofounder-team bundle and is installed alongside this one.
+6. **Run every rewrite through the `humanizer` skill.** This is a required step, not an afterthought. Drafted slide content that has not been humanized should not be presented to the founder. The `humanizer` skill ships in the cofounder-team bundle and is installed alongside this one. **Exception:** if the deck is in a language other than English, skip the humanizer pass (see the "Language" section above) and note it briefly when you present the rewrites.
 
 When critiquing the vision line itself, check that it is:
 
@@ -268,7 +280,7 @@ When the founder asks you to plan a deck from scratch:
 2. **Decide the slide order.** Use the default in this skill as a starting point. Adapt based on length, audience, and what the founder has (see "When to break the default order" below).
 3. **Plan slide by slide.** For each slide, give the layout and every element in the format described in the "Output format" section.
 4. **Flag every unknown.** If any part of the plan depends on a fact you do not have, mark it clearly (for example, in square brackets: `[please confirm: what is the actual MRR figure?]`) rather than leaving it as if it were verified.
-5. **Run every drafted slide through the humanizer pass.** Required step, not optional.
+5. **Run every drafted slide through the humanizer pass.** Required step, not optional. **Exception:** if the deck is in a language other than English, skip the humanizer pass (see the "Language" section above) and note it briefly when you present the plan.
 6. **Explain the tradeoffs.** Present the plan with a short note on the decisions you made (e.g., "I put traction directly after the demo because your retention numbers are strong"), so the founder knows what to push back on.
 
 ### Coach mode

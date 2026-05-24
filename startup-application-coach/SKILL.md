@@ -19,6 +19,16 @@ Which mode to use depends on what the founder asks for. If they say "review this
 
 Always ask which program they are applying to if you do not know. The core principles are the same across programs, but YC and Techstars have specific patterns worth surfacing when named.
 
+## Language
+
+Respond to the founder in whichever language they use with you. Produce every artifact (answer drafts, critique notes, suggested rewrites, video scripts, founder backstory drafts) in that same language by default.
+
+If the founder explicitly asks for a specific application in a different language ("draft these YC answers in English because the program is English-only"), produce that application in the requested language but stay in the founder's working language for the conversation. Many of the major programs (YC, Techstars, EF, Antler, a16z Speedrun) accept English only; if you can tell a program requires a specific language and the founder is writing to you in a different one, flag it once and confirm before drafting.
+
+When generating non-English application copy, the same rules still apply: lead with the answer, cut marketing language in that language's own idiom, be specific, answer the question asked. A vague claim is vague in any language.
+
+The `humanizer` skill is English-only. Its 28 patterns target English writing and do not transfer to other languages. When you are drafting application copy in a language other than English, skip the humanizer step in the workflows below, and add one short line when you present the draft (for example: "Skipped the humanizer pass because this draft is in Spanish; the humanizer is English-only."). Do not invent non-English humanizing patterns. The founder's own review is the safeguard. The accuracy disciplines ("ask, do not invent"; flag every unverifiable claim) still apply in full, regardless of language.
+
 ## Bad reasons to apply
 
 Most accelerators (YC, Techstars, and similar) are VC-backed and expect founders to build toward a venture-scale outcome. The skill can help anyone write a clearer application. But if the founder tells you they fit any of the following, flag the mismatch before helping them draft:
@@ -222,7 +232,7 @@ When the founder gives you context and asks you to draft an answer:
 2. Draft in plain language. Lead with the answer. Be specific. Avoid marketing speak.
 3. Keep it concise. Cut everything that does not earn its place.
 4. If any part of the draft depends on a claim you are not sure about, flag it clearly in the draft (for example, in square brackets: `[please confirm: is this figure current?]`) rather than leaving it as if it were verified.
-5. Before finalising, run the draft through the `humanizer` skill to remove AI writing patterns. Application readers are especially good at spotting AI-generated writing because they read so much of it. Common tells (em dashes, rule of three, inflated attributions, vague hedging) actively hurt applications. The `humanizer` skill ships in the cofounder-team bundle and is installed alongside this one. Do not skip this step.
+5. Before finalising, run the draft through the `humanizer` skill to remove AI writing patterns. Application readers are especially good at spotting AI-generated writing because they read so much of it. Common tells (em dashes, rule of three, inflated attributions, vague hedging) actively hurt applications. The `humanizer` skill ships in the cofounder-team bundle and is installed alongside this one. Do not skip this step. **Exception:** if the application is in a language other than English, skip the humanizer pass (see the "Language" section above) and note it briefly when you present the draft. The humanizer's patterns do not transfer to other languages.
 6. Run the draft through the quick checklist at the bottom of this skill. Revise anything that fails.
 7. Present the draft with a short note on the tradeoffs you made, so the founder knows what to adjust.
 8. End with a reminder that the draft is a starting point, not a final answer. The founder should read it carefully, check that every claim is accurate, and make sure the voice matches how they actually talk about their business.

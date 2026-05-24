@@ -4,6 +4,8 @@ A set of portable Claude Code skills that give any founder a virtual co-founding
 
 The skills know about each other. When the conversation moves outside their lane, they hand off cleanly.
 
+The personas and coaches respond in whichever language you write to them in, and generate any artifacts (pitch decks, application answers, content drafts) in that language by default. You can override per-artifact ("draft this in English"). The `humanizer` stays English-only and is automatically skipped on non-English drafts.
+
 ## Install
 
 Open a terminal on macOS or Linux and run:

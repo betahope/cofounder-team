@@ -36,6 +36,14 @@ widest variety of cases." That's why AI writing feels smoothed-over and generici
 the model is producing the statistical average of what a sentence looks like. Humanizing
 means putting specificity, rhythm, and a point of view back in.
 
+## Scope: English only
+
+This skill operates on English text only. The 28 patterns target English writing (em dashes, English-specific filler, English signposting, English vague attributions, etc.). The detection logic and the rewrites assume English grammar and idiom.
+
+If a caller (one of the cofounder-team skills or anyone else) passes copy in another language, do not attempt to humanize it. Return immediately with a short note: "This draft is in <language>. The humanizer is English-only, so skipping. The 28 patterns do not transfer to other languages, and inventing replacements risks damaging the copy." The caller already knows to skip in that case, so you are confirming, not blocking.
+
+Do not invent non-English patterns. Do not translate the draft into English to humanize and then translate back; that destroys the founder's voice.
+
 ## How this skill is organized
 
 - **This file**: the workflow, the pattern index, and the "add voice" principles

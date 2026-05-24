@@ -38,10 +38,11 @@ On Windows the entries are copies, so changes here do **not** reach the installe
 
 ## The cross-skill contract
 
-These skills are designed as a team that knows its own lanes. When editing any persona skill, keep two contracts intact:
+These skills are designed as a team that knows its own lanes. When editing any persona skill, keep three contracts intact:
 
 1. **Lane boundaries are mutual.** If `jack/SKILL.md` says "visual content sits with Priya" then `priya/SKILL.md` must own that lane. Boundaries described in one skill's "Boundaries" section should be reflected in the other skill's domain. Changing a lane in one place is a multi-file edit.
 2. **`humanizer` is called by the others.** Jack, Maya, Priya, Dan, and the two coaches all instruct themselves to run drafts through the `humanizer` skill before returning user-facing copy. If you change humanizer's name, location, or invocation pattern, update every caller.
+3. **Language follows the user.** All persona and coach skills detect the founder's language from their messages and respond in that language. Generated artifacts (pitch decks, application answers, content drafts, financial model narratives) are produced in the same language unless the founder explicitly asks for a different language for a specific artifact ("make the deck in English"). Per-artifact overrides do not change the conversational language. Persona names (Jack, Maya, Priya, Dan) stay as-is. `humanizer` is English-only, so non-English drafts skip the humanizer pass and say so briefly. If you add a new persona or coach, it must follow this contract too.
 
 The personas (Jack, Maya, Priya, Dan) follow a consistent SKILL.md shape: persona intro → "How you think" → "Your domain" → "Boundaries" (which names the other co-founders by full name and explicitly hands work off) → "Companion skills" → "How you talk" → "Generating copy: mandatory humanizer pass" → "Context". Preserve this shape when editing — it's how the hand-offs stay reliable.
 
