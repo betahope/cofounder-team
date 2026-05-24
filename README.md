@@ -8,6 +8,10 @@ The personas and coaches respond in whichever language you write to them in, and
 
 ## Install
 
+Two paths, pick the one that matches where you use Claude.
+
+### Install in Claude Code
+
 Open a terminal on macOS or Linux and run:
 
 ```
@@ -17,6 +21,16 @@ git clone --depth 1 https://github.com/betahope/cofounder-team.git ~/.cofounder-
 That command does three things: it clones this repo to `~/.cofounder-team`, then links each skill into `~/.claude/skills/` (where Claude Code looks for personal skills), then prints a summary.
 
 After it finishes, **start a new Claude Code session** so the skills load.
+
+### Install in Claude.ai
+
+1. Go to the [latest release](https://github.com/betahope/cofounder-team/releases/latest).
+2. Download the `.zip` for each skill you want (jack, maya, priya, dan, pitch-deck-coach, startup-application-coach, humanizer).
+3. In Claude.ai, open **Settings → Skills → Upload** and drop each zip in.
+
+The `cofounder-team-upgrade` skill is not included in the Claude.ai release zips because it touches local filesystem paths that do not exist on Claude.ai. On Claude.ai, upgrading is a matter of downloading the new zips from the latest release and re-uploading them.
+
+Releases start at v0.3.0. Earlier versions (v0.1.0, v0.2.0) only ship via the Claude Code install path above.
 
 ## The skills
 
@@ -33,19 +47,29 @@ Each skill is a folder with a `SKILL.md` inside. Once installed, you trigger the
 
 ## Upgrade
 
+### Upgrade in Claude Code
+
 Inside any Claude Code session, run:
 
 ```
 /cofounder-team-upgrade
 ```
 
-…or just ask in plain English: "upgrade cofounder-team" or "update my cofounder skills". Claude will pull the latest version from GitHub, re-link any new skills, and show you what changed.
+…or just ask in plain English: "upgrade cofounder-team" or "update my cofounder skills". Claude will pull the latest version from GitHub, re-link any new skills, show you the curated changelog of what shipped, and remind you to start a new session.
 
-Then start a new Claude Code session so the updated skills load.
+**Windows users:** if you installed via Git Bash, setup copied the skill folders instead of linking them (Windows blocks symlinks in many setups). That means an upgrade has to re-copy the latest files. The upgrade skill handles this automatically, just re-run it whenever you want the newest version.
 
-**Windows users:** if you installed via Git Bash, setup copied the skill folders instead of linking them (Windows blocks symlinks in many setups). That means an upgrade has to re-copy the latest files. The upgrade skill handles this automatically — just re-run it whenever you want the newest version.
+### Upgrade in Claude.ai
+
+Claude.ai has no in-app upgrade flow for personal skills. To get the newest version:
+
+1. Go to the [latest release](https://github.com/betahope/cofounder-team/releases/latest) and check the version number against what you have installed.
+2. Download the updated zips and re-upload them in **Settings → Skills**. Claude.ai will replace the existing skill of the same name.
+3. The release notes on each release list what changed, pulled from `CHANGELOG.md`.
 
 ## Uninstall
+
+The uninstall script applies to Claude Code installs only.
 
 To remove the skills from `~/.claude/skills/` without deleting the clone:
 
@@ -60,6 +84,8 @@ To remove the clone itself as well:
 ```
 rm -rf ~/.cofounder-team
 ```
+
+On Claude.ai, remove skills individually in **Settings → Skills**.
 
 ## How it works under the hood
 

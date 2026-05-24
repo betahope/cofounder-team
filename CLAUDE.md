@@ -21,20 +21,27 @@ Each top-level directory containing a `SKILL.md` is a skill:
 
 `setup` and `uninstall` are bash scripts. `setup` walks every top-level dir that contains a `SKILL.md` and links it into `~/.claude/skills/` (or copies it on Windows / Git Bash, leaving a `.cofounder-team` sentinel file).
 
-## How edits land in Claude Code
+## Distribution channels
 
-On macOS and Linux, `~/.claude/skills/<name>` is a **symlink** back into this repo. That means editing a `SKILL.md` here changes the live, installed skill immediately — no re-install needed, but the user still has to start a new Claude Code session for the loader to pick it up.
+The bundle ships through two channels that work very differently. Both are equally supported.
 
-On Windows the entries are copies, so changes here do **not** reach the installed skill until `bash ./setup` (or `/cofounder-team-upgrade`) is re-run.
+**Claude Code (local install).** Users `git clone` this repo to `~/.cofounder-team` and run `bash ./setup`. On macOS and Linux, `~/.claude/skills/<name>` becomes a **symlink** back into this repo, so editing a `SKILL.md` here changes the live installed skill immediately (user still has to start a new Claude Code session for the loader to pick it up). On Windows, entries are copies, so changes here do **not** reach the installed skill until `bash ./setup` (or `/cofounder-team-upgrade`) is re-run.
+
+**Claude.ai (release zips).** Every `v*` tag push triggers `.github/workflows/release.yml`, which builds one `.zip` per skill and attaches them to a GitHub Release. Users download the zips and upload them via Claude.ai's Settings → Skills UI. There is no in-app upgrade path on Claude.ai; users re-download newer zips and re-upload to update.
+
+The release workflow auto-discovers skills by scanning top-level directories that contain a `SKILL.md`. It excludes any skill listed in the workflow's `EXCLUDED_SKILLS` env var. Currently only `cofounder-team-upgrade` is excluded (it touches local filesystem paths that do not exist on Claude.ai).
+
+The Claude.ai distribution starts at v0.3.0. Earlier tags (v0.1.0, v0.2.0) only ship through the Claude Code install path.
 
 ## Adding a new skill
 
 1. Create `<skill-name>/SKILL.md` at the repo root with valid frontmatter (`name`, `description`, optionally `version`, `license`, `allowed-tools`).
 2. Run `bash ./setup` to link it into `~/.claude/skills/`.
-3. Update `README.md`'s "The skills" list.
+3. Update `README.md`'s "The skills" list (and the "Install in Claude.ai" step list if the skill should ship to Claude.ai too).
 4. If other skills should hand off to it, add it to their **Companion skills** / **Boundaries** sections.
+5. Decide whether the skill should ship to Claude.ai. If it touches local filesystem paths, machine-specific state, or anything else that does not exist on Claude.ai, add it to `EXCLUDED_SKILLS` in `.github/workflows/release.yml`. Otherwise no workflow change is needed — auto-discovery picks it up on the next tagged release.
 
-`setup` will skip any path under `~/.claude/skills/<name>` that is a real folder it didn't create (no symlink, no sentinel file) — so don't try to overwrite a user's existing skill of the same name.
+`setup` will skip any path under `~/.claude/skills/<name>` that is a real folder it didn't create (no symlink, no sentinel file), so don't try to overwrite a user's existing skill of the same name.
 
 ## The cross-skill contract
 

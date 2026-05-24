@@ -14,6 +14,20 @@ The `humanizer` skill keeps its own `version: 3.0.0` in frontmatter because it p
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-05-24
+
+### Added
+
+- Claude.ai distribution path. Each persona and coach is now packaged as a standalone `.zip` and attached to every GitHub Release for upload through Claude.ai → Settings → Skills.
+- `.github/workflows/release.yml`. Builds the per-skill zips automatically on `v*` tag push and supports manual re-runs via `workflow_dispatch`. Auto-discovers skills by scanning for top-level directories with a `SKILL.md`. Excludes anything in `EXCLUDED_SKILLS` (currently just `cofounder-team-upgrade`). Release notes are pulled from the matching section of this changelog.
+- "Install in Claude.ai" and "Upgrade in Claude.ai" sections in `README.md` linking to the latest release and explaining the re-upload upgrade flow.
+- "Distribution channels" section in `CLAUDE.md` describing the two install surfaces (Claude Code via local install, Claude.ai via release zips) and what to do when adding a new skill.
+
+### Notes
+
+- The `cofounder-team-upgrade` skill is intentionally excluded from Claude.ai release zips. It touches local filesystem paths (`~/.cofounder-team`, `~/.claude/skills/`) that do not exist on Claude.ai. On Claude.ai, "upgrade" means downloading the newer release zips and re-uploading them.
+- Earlier versions (v0.1.0, v0.2.0) do not have release zips attached. The Claude.ai distribution starts at v0.3.0.
+
 ## [0.2.0] - 2026-05-24
 
 ### Added

@@ -1,0 +1,118 @@
+name: Build Claude.ai release zips
+
+# Builds one .zip per skill (excluding cofounder-team-upgrade, which is Claude
+# Code only) and attaches them to the GitHub Release for the pushed tag. These
+# zips are how users install the bundle into Claude.ai (Settings -> Skills ->
+# Upload).
+#
+# Fires automatically on any v* tag push. Can also be triggered manually via
+# workflow_dispatch (useful for backfilling a release if the auto-build failed
+# or for retrying after an edit).
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Existing git tag to build a release for (e.g. v0.3.0)'
+        required: true
+        type: string
+
+# Skills excluded from Claude.ai distribution. cofounder-team-upgrade touches
+# local paths (~/.cofounder-team, ~/.claude/skills/) that do not exist on
+# Claude.ai, so shipping it there would confuse users.
+env:
+  EXCLUDED_SKILLS: "cofounder-team-upgrade"
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Resolve target tag
+        id: tag
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TAG="${{ inputs.tag }}"
+          else
+            TAG="${{ github.ref_name }}"
+          fi
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "Building release for tag: $TAG"
+
+      - name: Check out the repo at the tag
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.tag.outputs.tag }}
+
+      - name: Build per-skill zips
+        run: |
+          mkdir -p dist
+          shopt -s nullglob
+          built=0
+          for dir in */; do
+            skill="${dir%/}"
+            # Skip excluded skills.
+            case " $EXCLUDED_SKILLS " in
+              *" $skill "*)
+                echo "Skipping $skill (excluded from Claude.ai distribution)"
+                continue
+                ;;
+            esac
+            # Only zip directories that are actually skills.
+            if [ ! -f "$skill/SKILL.md" ]; then
+              continue
+            fi
+            zip -r "dist/${skill}.zip" "$skill"
+            echo "Built dist/${skill}.zip"
+            built=$((built + 1))
+          done
+          if [ "$built" -eq 0 ]; then
+            echo "No skills were built. Failing." >&2
+            exit 1
+          fi
+          ls -la dist/
+
+      - name: Extract changelog section for this tag
+        id: notes
+        run: |
+          TAG="${{ steps.tag.outputs.tag }}"
+          VERSION="${TAG#v}"
+          # Pull out the body of the matching [X.Y.Z] section in CHANGELOG.md.
+          # Stops at the next ## heading.
+          awk -v v="$VERSION" '
+            $0 ~ "^## \\[" v "\\]" { found=1; next }
+            found && /^## / { exit }
+            found { print }
+          ' CHANGELOG.md > release-notes-body.md || true
+          {
+            echo "## What changed"
+            echo
+            if [ -s release-notes-body.md ]; then
+              cat release-notes-body.md
+            else
+              echo "See [CHANGELOG.md](CHANGELOG.md) for details."
+            fi
+            echo
+            echo "## Install in Claude.ai"
+            echo
+            echo "Download the zips for the skills you want. Then go to **Claude.ai → Settings → Skills → Upload** and drop each zip in."
+            echo
+            echo "The \`cofounder-team-upgrade\` skill is Claude Code only and is not included here. To get a newer version on Claude.ai, download the latest release zips and re-upload."
+            echo
+            echo "For Claude Code, install the whole bundle in one command (see the [README](README.md))."
+          } > release-notes.md
+          echo "Generated release notes:"
+          cat release-notes.md
+
+      - name: Create or update the GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.tag.outputs.tag }}
+          name: ${{ steps.tag.outputs.tag }}
+          body_path: release-notes.md
+          files: dist/*.zip
+          fail_on_unmatched_files: true
