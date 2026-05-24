@@ -14,6 +14,8 @@ The `humanizer` skill keeps its own `version: 3.0.0` in frontmatter because it p
 
 ## [Unreleased]
 
+## [0.4.2] - 2026-05-24
+
 ### Fixed
 
 - Trimmed `dan/SKILL.md` description to fit Claude.ai's 1024-character limit on the `description` frontmatter field. Was 1382 characters, which caused Claude.ai's skill loader to reject the upload with `field 'description' in SKILL.md must be at most 1024 characters`. The trim collapsed two enumerated sub-lists into compact parentheticals (cap table mechanics; grants and accelerator programs), dropped a few non-trigger details, and preserved all term-sheet vocabulary, program names, and persona credibility that drive triggering.
