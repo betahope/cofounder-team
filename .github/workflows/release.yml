@@ -2,8 +2,8 @@ name: Build Claude.ai release zips
 
 # Builds one .zip per skill (excluding cofounder-team-upgrade, which is Claude
 # Code only) and attaches them to the GitHub Release for the pushed tag. These
-# zips are how users install the bundle into Claude.ai (Settings -> Skills ->
-# Upload).
+# zips are how users install the bundle into Claude.ai (Customize -> Skills ->
+# Upload in the left sidebar).
 #
 # Fires automatically on any v* tag push. Can also be triggered manually via
 # workflow_dispatch (useful for backfilling a release if the auto-build failed
@@ -99,7 +99,7 @@ jobs:
             echo
             echo "## Install in Claude.ai"
             echo
-            echo "Download the zips for the skills you want. Then go to **Claude.ai → Settings → Skills → Upload** and drop each zip in."
+            echo "Download the zips for the skills you want. Then in Claude.ai, open **Customize → Skills** from the left sidebar, click **Upload**, and drop each zip in."
             echo
             echo "The \`cofounder-team-upgrade\` skill is Claude Code only and is not included here. To get a newer version on Claude.ai, download the latest release zips and re-upload."
             echo

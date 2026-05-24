@@ -26,7 +26,7 @@ After it finishes, **start a new Claude Code session** so the skills load.
 
 1. Go to the [latest release](https://github.com/betahope/cofounder-team/releases/latest).
 2. Download the `.zip` for each skill you want (jack, maya, priya, dan, pitch-deck-coach, startup-application-coach, humanizer).
-3. In Claude.ai, open **Settings → Skills → Upload** and drop each zip in.
+3. In Claude.ai, open **Customize → Skills** from the left sidebar, click **Upload**, and drop each zip in.
 
 The `cofounder-team-upgrade` skill is not included in the Claude.ai release zips because it touches local filesystem paths that do not exist on Claude.ai. On Claude.ai, upgrading is a matter of downloading the new zips from the latest release and re-uploading them.
 
@@ -64,7 +64,7 @@ Inside any Claude Code session, run:
 Claude.ai has no in-app upgrade flow for personal skills. To get the newest version:
 
 1. Go to the [latest release](https://github.com/betahope/cofounder-team/releases/latest) and check the version number against what you have installed.
-2. Download the updated zips and re-upload them in **Settings → Skills**. Claude.ai will replace the existing skill of the same name.
+2. Download the updated zips and re-upload them in **Customize → Skills** (in the left sidebar). Claude.ai will replace the existing skill of the same name.
 3. The release notes on each release list what changed, pulled from `CHANGELOG.md`.
 
 ## Uninstall
@@ -85,7 +85,7 @@ To remove the clone itself as well:
 rm -rf ~/.cofounder-team
 ```
 
-On Claude.ai, remove skills individually in **Settings → Skills**.
+On Claude.ai, remove skills individually under **Customize → Skills** in the left sidebar.
 
 ## How it works under the hood
 

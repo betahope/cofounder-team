@@ -27,7 +27,7 @@ The bundle ships through two channels that work very differently. Both are equal
 
 **Claude Code (local install).** Users `git clone` this repo to `~/.cofounder-team` and run `bash ./setup`. On macOS and Linux, `~/.claude/skills/<name>` becomes a **symlink** back into this repo, so editing a `SKILL.md` here changes the live installed skill immediately (user still has to start a new Claude Code session for the loader to pick it up). On Windows, entries are copies, so changes here do **not** reach the installed skill until `bash ./setup` (or `/cofounder-team-upgrade`) is re-run.
 
-**Claude.ai (release zips).** Every `v*` tag push triggers `.github/workflows/release.yml`, which builds one `.zip` per skill and attaches them to a GitHub Release. Users download the zips and upload them via Claude.ai's Settings → Skills UI. There is no in-app upgrade path on Claude.ai; users re-download newer zips and re-upload to update.
+**Claude.ai (release zips).** Every `v*` tag push triggers `.github/workflows/release.yml`, which builds one `.zip` per skill and attaches them to a GitHub Release. Users download the zips and upload them via Claude.ai's **Customize → Skills** UI (in the left sidebar). There is no in-app upgrade path on Claude.ai; users re-download newer zips and re-upload to update. Note: Skills on Claude.ai live under Customize in the sidebar, not under Settings — easy to get wrong when writing docs.
 
 The release workflow auto-discovers skills by scanning top-level directories that contain a `SKILL.md`. It excludes any skill listed in the workflow's `EXCLUDED_SKILLS` env var. Currently only `cofounder-team-upgrade` is excluded (it touches local filesystem paths that do not exist on Claude.ai).
 
