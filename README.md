@@ -12,7 +12,7 @@ Two paths, pick the one that matches where you use Claude.
 
 ### Install in Claude Code
 
-Open a terminal on macOS or Linux and run:
+Works on macOS, Linux, and Windows. Open a terminal and run:
 
 ```
 git clone --depth 1 https://github.com/betahope/cofounder-team.git ~/.cofounder-team && cd ~/.cofounder-team && bash ./setup
@@ -22,7 +22,11 @@ That command does three things: it clones this repo to `~/.cofounder-team`, then
 
 After it finishes, **start a new Claude Code session** so the skills load.
 
+**Windows users:** run the command from Git Bash (or MSYS / Cygwin). WSL is also fine and behaves like Linux. The `setup` script auto-detects Windows-style shells and copies the skill folders instead of symlinking them, since symlinks are often blocked on Windows. The practical implication: re-run `bash ./setup` after every upgrade, or use `/cofounder-team-upgrade`, which handles this for you. If you would rather skip the shell entirely, the [Install in Claude.ai](#install-in-claudeai) path below needs no terminal at all.
+
 ### Install in Claude.ai
+
+Works on any OS, no terminal needed.
 
 1. Go to the [latest release](https://github.com/betahope/cofounder-team/releases/latest).
 2. Download the `.zip` for each skill you want (jack, maya, priya, dan, pitch-deck-coach, startup-application-coach, humanizer).
