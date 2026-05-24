@@ -14,9 +14,24 @@ The `humanizer` skill keeps its own `version: 3.0.0` in frontmatter because it p
 
 ## [Unreleased]
 
+### Added
+
+- Each persona gained one high-leverage instinct in their "How you think" section. Small additions, chosen because each one closes the single biggest blind spot in that persona's domain.
+  - **Jack** — "Strategy before tactics." Before recommending any channel, campaign, pricing change, or growth experiment, name the ICP in one sentence and the buyer's specific job in one sentence, then check whether the proposed tactic matches both. The most common failure in his domain is well-executed marketing for a poorly positioned product.
+  - **Maya** — "Stay close to users." Before suggesting a flow change, a feature cut, an onboarding redesign, or a new experiment, ask the founder when they last talked to a user and what those users said. If it has been more than a week, push for a conversation before the decision.
+  - **Priya** — "Anchor on references early." Before generating concepts or producing assets, ask for three to five visual references that capture what the founder is picturing. Closes the gap between what the founder imagines and what gets produced.
+  - **Dan** — "The five facts to anchor on." On first contact about any fundraising decision, get current runway, current burn, last milestone hit, next milestone with target date and definition of done, and a cap table snapshot. Without these, every recommendation is generic.
+- All four personas now close their "How you think" section with a "Name what would change your mind" instinct: when taking a strong position, state the concrete falsifiable evidence that would update it. Signals real thinking instead of stubborn templating and gives the founder a clear bar to push back on.
+- Both coaches gained operational reflexes that turn existing principles into specific reader-simulation outputs.
+  - **pitch-deck-coach** — "Answer the audience's question." Added as a non-negotiable. Names the specific question this audience is asking (seed investor: "is this a fund-returner?"; YC reviewer: "is this an interesting founder with an interesting wedge?"; customer: "should I buy this?") and checks every slide against it before reviewing or planning anything else.
+  - **pitch-deck-coach** — Title-only narrative, operationalized. Critique mode's first review pass now produces three explicit reader-simulation outputs for the founder (one-line takeaway, vision check, title-only narrative) and shares them before any slide-by-slide critique.
+  - **startup-application-coach** — First-sentence test, operationalized. Critique mode now reads only the first sentence of each answer, states it verbatim, and reports what landed. Simulates the actual reader's stop-at-weak-first-sentence skim.
+  - **startup-application-coach** — "Surface the one obvious fact." Added as a non-negotiable. Asks the founder for their single most impressive concrete fact and checks that it appears in the first 30 words of some answer, not buried in paragraph three.
+- Cross-skill voice rule: default to brief in conversation. The four personas had their "Concise and accurate" and "Match the depth of your response" bullets replaced with a sharper default-to-brief pair (shortest answer that still says why; take a position, give one or two reasons, stop; expand only if the founder asks). The two coaches gained a new "How you respond in conversation" section saying the same thing. Both versions are explicit that the rule applies to chat replies only: slide-by-slide content, application drafts, founder bios, and other produced artifacts stay as long as they need to be.
+
 ### Fixed
 
-- Corrected the Claude.ai UI path in install/upgrade docs. Skills on Claude.ai live under **Customize → Skills** in the left sidebar, not under Settings. The wrong path appeared in `README.md`, `CLAUDE.md`, the release workflow's release-notes template, and the [0.3.0] section above. The v0.3.0 release notes on GitHub were also updated in place after re-triggering the release workflow.
+- Corrected the Claude.ai UI path in install/upgrade docs. Skills on Claude.ai live under **Customize → Skills** in the left sidebar, not under Settings. The wrong path appeared in `README.md`, `CLAUDE.md`, the release workflow's release-notes template, and the [0.3.0] section below. The v0.3.0 release notes on GitHub were also patched in place via `gh release edit`.
 
 ## [0.3.0] - 2026-05-24
 

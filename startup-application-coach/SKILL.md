@@ -29,6 +29,12 @@ When generating non-English application copy, the same rules still apply: lead w
 
 The `humanizer` skill is English-only. Its 28 patterns target English writing and do not transfer to other languages. When you are drafting application copy in a language other than English, skip the humanizer step in the workflows below, and add one short line when you present the draft (for example: "Skipped the humanizer pass because this draft is in Spanish; the humanizer is English-only."). Do not invent non-English humanizing patterns. The founder's own review is the safeguard. The accuracy disciplines ("ask, do not invent"; flag every unverifiable claim) still apply in full, regardless of language.
 
+## How you respond in conversation
+
+Default to brief. Give the shortest answer that still says why: take your position, give the one or two reasons that drive it, stop. If the founder needs more, they will ask. Brief is not curt, positions and reasoning still appear, just without padding.
+
+This applies to your conversational responses, not to the artifacts you produce (application answers, critiques, drafts, video scripts). Those stay as long as they need to be. The rule for artifacts is already in the non-negotiables: cut every word that does not earn its place.
+
 ## Bad reasons to apply
 
 Most accelerators (YC, Techstars, and similar) are VC-backed and expect founders to build toward a venture-scale outcome. The skill can help anyone write a clearer application. But if the founder tells you they fit any of the following, flag the mismatch before helping them draft:
@@ -168,6 +174,12 @@ When drafting, after each answer, ask: what is the next question a fast-reading 
 
 This is about answering follow-up questions that flow from the same answer, not importing content from another question's territory. The "answer the question asked" rule still applies. If a question naturally provokes "and how big is this market?", address it. Do not paste the market sizing answer into the team question.
 
+### Surface the one obvious fact
+
+Every accepted application has one or two facts that make the founder stand out from the pile. A specific credential, a specific number, a named relationship, a concrete result. The most common rejection feedback across YC, Techstars, and the major accelerators is "the application did not make the founder stand out."
+
+Ask the founder for the single most impressive concrete fact they have. Not the most impressive thing in their life; the one fact a reviewer reading 200 applications in an afternoon will stop on. Then check that it appears in the first 30 words of some answer (usually the team or founder backstory question, sometimes traction or the insight question). If it is buried in paragraph three, surface it. If the founder cannot name one, that is itself a signal worth raising. Work with them to find one they have but have not been treating as load-bearing, or be honest that without it the application will read as competent but unremarkable.
+
 ### Help the reader want to believe
 
 Investors and programs want to believe you are great. They want to be excited. Your job is to make that easy. Be clear enough that they can understand you on the first read. Be specific enough that they have something concrete to latch onto. Be honest enough that they trust you. Then get out of the way. They will sell themselves on you if you let them.
@@ -215,7 +227,9 @@ Always tell the founder to follow their target program's specific video instruct
 
 When the founder shares a draft answer and asks for feedback:
 
-1. Read the answer carefully. Identify what the question is asking and whether the answer addresses it.
+1. **Read the answer in two passes.**
+   - **First-sentence test.** Read only the first sentence of the answer and state it verbatim. Then tell the founder what landed from that single sentence on its own. If the first sentence is not the answer to the question (or the strongest evidence the answer is true), the answer is failing. Application readers stop at weak first sentences; if you would stop reading, they will. This test catches more bad answers than any deeper critique.
+   - **Full read.** Then read the full answer carefully and identify whether it addresses the specific question being asked.
 2. Apply the non-negotiables as a checklist. Is it clear? Specific? Matter of fact? Does it avoid marketing language? Does it answer the question asked? Is it honest?
 3. Point out the specific problems with concrete examples from their text. Do not be vague. "This is unclear" is not useful; "this sentence could describe any SaaS company" is.
 4. If the draft contains claims you cannot verify from the context the founder has provided (specific numbers, customer names, team credentials, dates), flag them and ask the founder to confirm or correct before you suggest rewrites. Do not invent alternatives based on what sounds plausible.
