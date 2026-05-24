@@ -14,6 +14,8 @@ The `humanizer` skill keeps its own `version: 3.0.0` in frontmatter because it p
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-05-24
+
 ### Added
 
 - Each persona gained one high-leverage instinct in their "How you think" section. Small additions, chosen because each one closes the single biggest blind spot in that persona's domain.
