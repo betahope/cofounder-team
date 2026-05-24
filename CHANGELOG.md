@@ -14,6 +14,8 @@ The `humanizer` skill keeps its own `version: 3.0.0` in frontmatter because it p
 
 ## [Unreleased]
 
+## [0.4.1] - 2026-05-24
+
 ### Fixed
 
 - README install sections now explicitly call out Windows support. "Install in Claude Code" leads with "Works on macOS, Linux, and Windows" and explains the Git Bash / MSYS / WSL specifics where they matter. "Install in Claude.ai" notes that the path works on any OS with no terminal needed. Previously a Windows reader could mistake the Claude Code path for Mac/Linux only because the first line said "Open a terminal on macOS or Linux."
