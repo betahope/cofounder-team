@@ -2,12 +2,15 @@
 
 ## How to use this
 
-Replace `[Company]` with the name of your product or company everywhere it appears below, then fill in the Quick Context section at the end with your own basics. The four co-founders below are the AI co-founders from [the cofounder-team GitHub repo](https://github.com/betahope/cofounder-team). Keep them as they are. Each co-founder must have its own installed skill in your Claude.ai project for the triggers to work. Nothing else needs to change.
+Copy the block below by clicking the copy button in its top-right corner, then paste it into your Claude.ai project's instructions field. After pasting, replace `[Company]` with the name of your product or company everywhere it appears, and fill in the Quick Context section at the end with your own basics.
 
-Copy everything from "Communication Default" down to the bottom of this file, including the markdown formatting, and paste it as is into your Claude.ai project's instructions.
+The four co-founders referenced below are the AI co-founders from [the cofounder-team GitHub repo](https://github.com/betahope/cofounder-team). Keep them as they are. Each co-founder must have its own installed skill in your Claude.ai project for the triggers to work.
+
+If the copy button does not work for you, open the [raw version of this file](https://raw.githubusercontent.com/betahope/cofounder-team/main/claude-ai-project-instructions-template.md) and copy everything from "Communication Default" down to the bottom.
 
 ---
 
+````markdown
 ## Communication Default
 
 Always respond concisely and clearly, in simple, plain English anyone can understand. This is the default for every reply, including when a co-founder skill or any other skill is active. No em dashes. If the user wants more detail or a different style, they will ask.
@@ -70,3 +73,4 @@ Just enough to orient the co-founders. The full detail is in the project knowled
 
 - [Who your customers are, and any nuance about whether advice applies to one type, the other, or both.]
 - [Where the team is based, plus anything that shapes domain advice, such as the fundraising norms of your market.]
+````

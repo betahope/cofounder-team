@@ -17,6 +17,7 @@ The `humanizer` skill keeps its own `version: 3.0.0` in frontmatter because it p
 ### Changed
 
 - Bumped release workflow actions to Node 24 compatible majors: `actions/checkout@v4` → `@v6`, and `softprops/action-gh-release@v2` → `@v3`. Resolves the deprecation warning flagged in the v0.4.2 notes ahead of GitHub's 2026-06-02 Node 24 default and 2026-09-16 Node 20 removal deadlines. No change to the produced release zips or to either action's input surface.
+- Restructured `claude-ai-project-instructions-template.md` so the paste-ready section is wrapped in a fenced code block. On GitHub's rendered view, this gives non-technical users a one-click copy button that captures the raw markdown verbatim, instead of asking them to figure out how to copy unrendered markdown out of a rendered page. The "How to use this" intro was rewritten around the copy button, and a fallback link to the raw file is included for environments where the copy button is unavailable. Template content is unchanged.
 
 ## [0.5.0] - 2026-05-25
 
