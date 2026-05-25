@@ -36,6 +36,8 @@ The `cofounder-team-upgrade` skill is not included in the Claude.ai release zips
 
 Releases start at v0.3.0. Earlier versions (v0.1.0, v0.2.0) only ship via the Claude Code install path above.
 
+If you are using the skills inside a Claude.ai project, the repo also includes a [project instructions template](claude-ai-project-instructions-template.md) you can paste into the project's instructions field. It tells Claude how to route between the four co-founders, when to bring more than one voice into a single message, and what defaults to apply.
+
 ## The skills
 
 Each skill is a folder with a `SKILL.md` inside. Once installed, you trigger them with `/skill-name` or by mentioning them in chat ("ask Jack", "what would Maya think", etc.).

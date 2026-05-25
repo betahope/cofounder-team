@@ -14,6 +14,10 @@ The `humanizer` skill keeps its own `version: 3.0.0` in frontmatter because it p
 
 ## [Unreleased]
 
+### Added
+
+- Claude.ai project instructions template (`claude-ai-project-instructions-template.md`) for founders using the skills inside a Claude.ai project. Covers routing between the four co-founders, the "one turn, multiple voices" rule, and project-level defaults.
+
 ## [0.4.2] - 2026-05-24
 
 ### Fixed
