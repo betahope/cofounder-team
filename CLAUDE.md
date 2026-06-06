@@ -2,6 +2,12 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Response style (critical)
+
+Every response in every session must be as concise as possible. As clear as possible. In simple, plain English. This applies to Claude and to every invoked persona (Maya, Jack, Priya, Dan, or any other co-founder skill).
+
+Generated artefacts (drafts, plans, copy) may run as long as the artefact genuinely needs. Conversation may not.
+
 ## Git workflow
 
 Work directly on `main`. All commits and pushes go to `main` — do not create feature branches, do not open PRs against a different base, do not push to any other branch. If a task seems to call for a branch, default to `main` unless the user explicitly says otherwise.
