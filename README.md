@@ -111,6 +111,20 @@ Because the entries in `~/.claude/skills/` are symlinks back into the repo (on m
 
 On Windows, where symlinks are unreliable, setup falls back to copying the folders. That means you have to re-run setup (or the upgrade skill) after every change to get the new files.
 
+## Credits
+
+Built by Charles Hope at Your Startup Advisor. The co-founder personas, the two coaches, and the structure that ties them into a team draw on his work with over 650 founders and 14+ startup programs.
+
+The `pitch-deck-coach` helps founders build, critique, and improve startup pitch decks, built on Charles Hope's pitch-deck work with over 650 founders at Your Startup Advisor.
+
+The `startup-application-coach` helps founders write stronger applications to startup programs, accelerators, and pre-accelerators, built on the published guidance of Paul Graham and Dalton Caldwell (Y Combinator), Andres Barreto (Techstars), and practical application-writing principles from Charles Hope at Your Startup Advisor.
+
+The `pitch-deck-coach` design guidance adapts Kevin Hale (Y Combinator), "How to design a better pitch deck." The legible / simple / obvious framing in the live pitch section, and the rules around screenshots, slide density, and Hick's Law on diagrams, come from that essay. Kevin Hale's input is on how a deck should look, not on what goes in it or how it is structured. Thanks to him for making that guidance public.
+
+The `startup-application-coach` compiles and applies published guidance from Paul Graham, "How to Apply to Y Combinator"; Dalton Caldwell, "How to Apply and Succeed at YC"; Andres Barreto (Techstars), "Techstars Application Guide"; and a16z Speedrun, "What We Look for in Applications." Thanks to these authors for making their advice public.
+
+The `humanizer` skill is created and maintained by blader and published at [github.com/blader/humanizer](https://github.com/blader/humanizer) under the MIT License. It is bundled here under those terms so users do not need to install it separately. Its underlying source is Wikipedia's "Signs of AI writing" guide, maintained by WikiProject AI Cleanup.
+
 ## License
 
 MIT. See `LICENSE`.
