@@ -14,6 +14,12 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+## [0.15.1] - 2026-08-26
+
+### Changed
+
+- **Credits in `README.md`.** Updated Charles Hope's figures: 700+ founders (was 650), 17+ startup programs globally (was 14+), and added 26+ years of experience, including 14+ years in and around startups. Docs only, no skill behavior change.
+
 ## [0.15.0] - 2026-08-21
 
 One shared style rule for every co-founder voice: simple plain language, concise, organised.

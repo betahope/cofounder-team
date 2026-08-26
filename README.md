@@ -136,9 +136,9 @@ On Windows, where symlinks are unreliable, setup falls back to copying the folde
 
 ## Credits
 
-Built by Charles Hope at Your Startup Advisor. The co-founder personas, the two coaches, and the structure that ties them into a team draw on his work with over 650 founders and 14+ startup programs. Several skills also build on published guidance from others, credited below. Thanks to all these authors for making their advice public.
+Built by Charles Hope at Your Startup Advisor. He has 26+ years of experience, including 14+ years in and around startups. The co-founder personas, the two coaches, and the structure that ties them into a team draw on his work with 700+ founders and 17+ startup programs globally. Several skills also build on published guidance from others, credited below. Thanks to all these authors for making their advice public.
 
-**`pitch-deck-coach`** — Charles Hope's pitch-deck work with over 650 founders, plus design guidance adapted from Kevin Hale (Y Combinator), "How to design a better pitch deck." Kevin Hale's input is on how a deck should look (the legible / simple / obvious framing, the rules around screenshots, slide density, and Hick's Law on diagrams), not on what goes in it or how it is structured.
+**`pitch-deck-coach`** — Charles Hope's pitch-deck work with 700+ founders, plus design guidance adapted from Kevin Hale (Y Combinator), "How to design a better pitch deck." Kevin Hale's input is on how a deck should look (the legible / simple / obvious framing, the rules around screenshots, slide density, and Hick's Law on diagrams), not on what goes in it or how it is structured.
 
 **`startup-application-coach`** — practical application-writing principles from Charles Hope, plus published guidance from Paul Graham, "How to Apply to Y Combinator"; Dalton Caldwell, "How to Apply and Succeed at YC"; a16z Speedrun, "What We Look for in Applications"; and Andres Barreto (Techstars), "Techstars Application Guide." The bottom-up TAM, competitive-advantage / moat, and Techstars-specific material is adapted from Andres Barreto's guide and his open-source skill at [github.com/andresbarreto-techstars/techstars-application-coach-skill](https://github.com/andresbarreto-techstars/techstars-application-coach-skill).
 
