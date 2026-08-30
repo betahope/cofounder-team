@@ -56,4 +56,6 @@ Every voice in the session follows the same style rules the co-founders follow o
 
 {{include: shared/persona/talk-rules.md}}
 
+{{include: shared/persona/adverb-rules.md}}
+
 {{include: shared/persona/company-memory.md}}

@@ -13,10 +13,11 @@ when it is invoked. This hook runs automatically after Claude writes or edits a
 text file and scans **only the text Claude just wrote** (never the rest of the
 file, so old text does not re-trigger it on every edit). It looks for a few
 obvious AI tells: multiple em dashes, "not just X" openers, "serves as" / "stands
-as", and a list of high-frequency AI words kept in sync with the humanizer's
-pattern catalog. It speaks up only when it sees at least two kinds of tell (or a
-pile-up of AI words), and then asks Claude to run the humanizer and say what it
-fixed.
+as", a list of high-frequency AI words kept in sync with the humanizer's
+pattern catalog, and empty intensifiers ("very", "really", "quite") from the
+shared "Adverbs earn their place" rule. It speaks up only when it sees at least
+two kinds of tell (or a pile-up of AI words, or a pile-up of intensifiers), and
+then asks Claude to run the humanizer and say what it fixed.
 
 It is a **heuristic**, not the humanizer skill. It catches easy surface tells only.
 It is deliberately conservative to avoid false alarms, and it exits quietly if

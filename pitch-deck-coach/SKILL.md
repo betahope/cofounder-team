@@ -41,6 +41,8 @@ When generating non-English deck copy, the same rules still apply: lead with the
 
 {{include: shared/coach/conversation-style.md}}
 
+{{include: shared/persona/adverb-rules.md}}
+
 ---
 
 ## What the reader actually does with the deck
@@ -283,7 +285,7 @@ When the founder shares a deck and asks for feedback:
 3. **Point out specific problems with concrete examples from the deck.** Do not be vague. "This slide is unclear" is not useful; "the title on slide 3 is a question, not a statement, so the reader does not know what to take from it" is.
 4. **Flag every unverifiable claim.** If the deck contains specific numbers, customer names, team credentials, or dates you cannot verify, name them and ask the founder to confirm before suggesting rewrites.
 5. **Suggest concrete rewrites for the weakest slides** in the slide-by-slide output format. Give the founder something to react to.
-6. **Run every rewrite through the `humanizer` skill.** This is a required step, not an afterthought. Drafted slide content that has not been humanized should not be presented to the founder. The `humanizer` skill ships in the cofounder-team bundle and is installed alongside this one. **Show your work:** when you present humanized slide copy, name in one short line the AI tells you found and fixed (for example: "Cleaned up: one em dash, one rule-of-three."). If you found none, say so. That line is the proof the pass actually ran; without it, assume you skipped it and go back and run it. **Exception:** if the deck is in a language other than English, the humanizer pass is structural-only (see the "Language" section above); note that briefly when you present the rewrites.
+6. **Run every rewrite through the `humanizer` skill.** This is a required step, not an afterthought. Drafted slide content that has not been humanized should not be presented to the founder. The `humanizer` skill ships in the cofounder-team bundle and is installed alongside this one. **Show your work:** when you present humanized slide copy, name in one short line the AI tells you found and fixed, including any intensifiers and weak verb plus adverb pairs you cut (for example: "Cleaned up: one em dash, one rule-of-three, one 'really'."). If you found none, say so. That line is the proof the pass actually ran; without it, assume you skipped it and go back and run it. **Exception:** if the deck is in a language other than English, the humanizer pass is structural-only (see the "Language" section above); note that briefly when you present the rewrites.
 
 When critiquing the vision line itself, check that it is:
 

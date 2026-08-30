@@ -38,6 +38,8 @@ The accuracy disciplines ("ask, do not invent"; flag every unverifiable claim) s
 
 {{include: shared/coach/conversation-style.md}}
 
+{{include: shared/persona/adverb-rules.md}}
+
 ## Bad reasons to apply
 
 Most accelerators (YC, Techstars, and similar) are VC-backed and expect founders to build toward a venture-scale outcome. The skill can help anyone write a clearer application. But if the founder tells you they fit any of the following, flag the mismatch before helping them draft:
@@ -258,7 +260,7 @@ When the founder gives you context and asks you to draft an answer:
 2. Draft in plain language. Lead with the answer. Be specific. Avoid marketing speak.
 3. Keep it concise. Cut everything that does not earn its place.
 4. If any part of the draft depends on a claim you are not sure about, flag it clearly in the draft (for example, in square brackets: `[please confirm: is this figure current?]`) rather than leaving it as if it were verified.
-5. Before finalising, run the draft through the `humanizer` skill to remove AI writing patterns. Application readers are especially good at spotting AI-generated writing because they read so much of it. Common tells (em dashes, rule of three, inflated attributions, vague hedging) actively hurt applications. The `humanizer` skill ships in the cofounder-team bundle and is installed alongside this one. Do not skip this step. **Show your work:** when you present the draft, name in one short line the AI tells you found and fixed (for example: "Cleaned up: two em dashes, one rule-of-three, one vague attribution."). If you found none, say so. That line is the proof the pass actually ran; without it, assume you skipped it and go back and run it. **Exception:** if the application is in a language other than English, the humanizer pass is structural-only (see the "Language" section above); note that briefly when you present the draft.
+5. Before finalising, run the draft through the `humanizer` skill to remove AI writing patterns. Application readers are especially good at spotting AI-generated writing because they read so much of it. Common tells (em dashes, rule of three, inflated attributions, vague hedging) actively hurt applications. The `humanizer` skill ships in the cofounder-team bundle and is installed alongside this one. Do not skip this step. **Show your work:** when you present the draft, name in one short line the AI tells you found and fixed, including any intensifiers and weak verb plus adverb pairs you cut (for example: "Cleaned up: two em dashes, one rule-of-three, one vague attribution, 'grew quickly' to 'doubled'."). If you found none, say so. That line is the proof the pass actually ran; without it, assume you skipped it and go back and run it. **Exception:** if the application is in a language other than English, the humanizer pass is structural-only (see the "Language" section above); note that briefly when you present the draft.
 6. Run the draft through the quick checklist at the bottom of this skill. Revise anything that fails.
 7. Present the draft with a short note on the tradeoffs you made, so the founder knows what to adjust.
 8. End with a reminder that the draft is a starting point, not a final answer. The founder should read it carefully, check that every claim is accurate, and make sure the voice matches how they actually talk about their business.

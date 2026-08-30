@@ -27,6 +27,15 @@ AI_PHRASES = [
     "in order to", "ever-evolving", "navigating the", "in the realm of",
 ]
 
+# Empty intensifiers, from the "Adverbs earn their place" rule the persona and
+# coach skills share (shared/persona/adverb-rules.md). "just" and "simply" are on
+# the skill's list but not here: both appear legitimately in docs and code
+# comments too often to flag without noise.
+INTENSIFIERS = [
+    "very", "really", "quite", "truly", "incredibly", "extremely",
+    "absolutely", "genuinely", "literally", "honestly",
+]
+
 PROSE_EXT = (".md", ".mdx", ".markdown", ".txt", ".html", ".htm")
 
 
@@ -70,6 +79,17 @@ def main() -> int:
     if re.search(r"\bserves as\b|\bstands as\b", low):
         findings.append('copula avoidance ("serves as")')
 
+    # Density, not presence: one "very" in a page of prose is not a tell.
+    intensifier_hits = [
+        w for w in INTENSIFIERS
+        if re.search(r"\b" + w + r"\b", low)
+    ]
+    intensifier_count = sum(
+        len(re.findall(r"\b" + w + r"\b", low)) for w in INTENSIFIERS
+    )
+    if intensifier_count >= 2:
+        findings.append("empty intensifiers: " + ", ".join(sorted(intensifier_hits)))
+
     word_hits = sorted(
         {w for w in AI_WORDS if re.search(r"\b" + re.escape(w), low)}
         | {p for p in AI_PHRASES if p in low}
@@ -78,15 +98,16 @@ def main() -> int:
         findings.append("high-frequency AI words: " + ", ".join(word_hits))
 
     # Quiet unless there is a real signal: two kinds of tell, or a word pile-up.
-    if len(findings) < 2 and len(word_hits) < 3:
+    if len(findings) < 2 and len(word_hits) < 3 and intensifier_count < 4:
         return 0
 
     msg = (
         "humanizer-slop-check flagged possible AI tells in the text just written to "
         + os.path.basename(path)
         + ": " + "; ".join(findings) + ". "
-        "If this is user-facing copy, run the `humanizer` skill on it and, "
-        "when you present it, name the tells you fixed. (This is a heuristic "
+        "If this is user-facing copy, run the `humanizer` skill on it, cut any "
+        "empty intensifiers, and name what you fixed when you present it. "
+        "(This is a heuristic "
         "check; ignore it if the text is not user-facing copy.)"
     )
 

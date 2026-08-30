@@ -14,6 +14,27 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+## [0.16.0] - 2026-08-30
+
+Adverbs earn their place: one shared word-level rule for every co-founder and coach.
+
+### Added
+
+- **`shared/persona/adverb-rules.md`.** A single snippet holding the "Adverbs earn their place" rule, included by all seven advising skills (Jack, Maya, Priya, Dan, `team`, `pitch-deck-coach`, `startup-application-coach`). It covers:
+  - **No empty intensifiers.** Very, really, quite, truly, incredibly, extremely, absolutely, genuinely, literally, honestly, simply, and "just" when it means "merely". They carry no information and make a claim land softer, not harder. When a line needs more force, the fix is a stronger noun or a concrete number.
+  - **No weak verb propped up by a manner adverb.** "Ran quickly" is "sprinted". "Grew quickly" is "doubled" when the number is there to back it. Every -ly word next to a verb gets checked against a single stronger verb.
+  - **What stays.** Adverbs of time, place and frequency (tomorrow, twice, outside, always, still) and linking adverbs (however, therefore, instead) are never cut for being adverbs. A manner adverb stays when it changes the meaning and no single verb covers it.
+  - **What is never touched.** Fixed text, transcripts, quotes from customers or investors, and copy the founder writes themselves, unless an edit is asked for.
+  - **Non-English copy.** The principle holds in any language, but the word list and the -ly test are English-specific.
+
+  The rule applies to conversation and artifacts alike, and runs alongside the humanizer pass rather than replacing it. The `humanizer` skill is unchanged: its vendored catalog covers hedges and filler phrases, and this covers the word-level habit it does not.
+
+### Changed
+
+- **The humanizer proof line now covers adverbs.** `shared/persona/humanizer-steps.md` (used by the four personas) and the inline copies in both coaches ask for intensifiers and weak verb plus adverb pairs in the same one-line "show your work" note, so a draft still reports one line, not two.
+- **`hooks/humanizer-slop-check` flags intensifier pile-ups.** The optional, opt-in Claude Code hook now scans new text for empty intensifiers and reports them as one kind of tell, or speaks up on its own at four or more in a single write. "just" and "simply" are deliberately left off the hook's list: both appear legitimately in docs and code comments too often to flag without noise. The skill rule still covers them. Claude Code only; nothing changes on Claude.ai.
+
+
 ## [0.15.1] - 2026-08-26
 
 ### Changed
