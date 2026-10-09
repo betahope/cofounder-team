@@ -14,8 +14,18 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+## [0.17.0] - 2026-10-09
+
+The humanizer moves to upstream 3.1.0, and catalog updates now reach the maintainer.
+
 ### Changed
 
+- **Humanizer catalog updated to upstream 3.1.0** (from 2.11.1). blader rewrote the catalog: 26 patterns instead of 35, grouped into six families and ranked strongest first.
+  - **New tells.** Writing for the wrong reader (a reply that re-explains what the reader already knows and buries the decision), writing about the document instead of its subject (method narration, "the table below compares"), vague connections ("associated with"), and decorative headings.
+  - **Merged.** Emojis and title case now sit under decorative headings. Name-dropping and vague sources became borrowed authority. Formulaic challenges sections and upbeat endings became inflated significance.
+  - **Dropped.** Filler phrases, false "from X to Y" ranges, and swapping synonyms to avoid repeating a word. The shared adverb rule still covers some filler.
+- **The humanizer follows upstream's strength order.** The top patterns (such as "not X but Y" and one-line closers) get fixed on one sighting, patterns marked *weak alone* need company, and the rest are judged by density. The bundle's three always-fix rules stay: no em or en dashes, no vague attributions, no chatbot leftovers. `humanizer/SKILL.md` also now names the six new families, points to the renamed "When not to act" section, and no longer mentions filler phrases.
+- **The optional slop-check hook knows a few new tells:** "bolster", "meticulous", "deep dive", "let that sink in", "read that again", and "without further ado". Common words upstream added (such as "key", "actually", "valuable", "landscape") are left out because they would fire on ordinary docs.
 - **Humanizer sync pull requests now notify the maintainer.** The weekly sync job opened its pull request with no one assigned and no reviewer, so a new upstream version could sit unnoticed (3.1.0 waited a month). It now assigns the pull request to `betahope` and requests their review, which triggers a GitHub email.
 
 ## [0.16.0] - 2026-08-30

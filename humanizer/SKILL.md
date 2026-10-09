@@ -9,7 +9,7 @@ description: |
   language ("nestled", "vibrant"), superficial -ing analyses, negative parallelism
   ("not just X, it's Y"), copula avoidance ("serves as" instead of "is"), rule of
   three, high-frequency AI vocabulary, vague attributions, signposting ("let's dive
-  in"), and filler phrases. Based on Wikipedia's "Signs of AI writing" guide. Use
+  in"), and chatbot leftovers ("I hope this helps"). Based on Wikipedia's "Signs of AI writing" guide. Use
   this skill even when the user doesn't explicitly ask. If the user is writing
   user-facing text, run humanizer on the draft before returning it.
 license: MIT
@@ -51,9 +51,10 @@ authority on which patterns exist and how to fix each one. This file is the auth
 on workflow, output length, language scope, and voice. Where the two disagree, this
 file wins.
 
-The patterns group into five families: content (what AI over-claims), language and
-grammar (how it phrases things), style (surface formatting tells), chatbot leakage
-(register left over from the assistant), and filler and hedging (padding). Deliberately
+The patterns group into six families: staging (signalling importance instead of
+stating a fact), rhythm by rule (triads and dashes everywhere), inflation and borrowed
+authority, formatting by rule, leftovers from the chat and the draft, and writing for
+the wrong reader (re-explaining what the reader already knows). Deliberately
 no numbered index here: upstream adds and renumbers patterns, and a second list would
 drift out of sync with the first.
 
@@ -62,7 +63,7 @@ drift out of sync with the first.
 The patterns split into two groups:
 
 - **Lexical patterns** are English-specific: the words-to-watch lists, copula avoidance
-  ("serves as" for "is"), promotional vocabulary, filler phrases, and every pattern that
+  ("serves as" for "is"), promotional vocabulary, and every pattern that
   names English words or English idiom. They do not transfer. Do not translate them, and
   do not invent equivalents in other languages.
 - **Structural patterns** are language-independent: forced triplets, negative
@@ -86,7 +87,7 @@ that destroys the writer's voice.
 1. **Read** the input carefully. Note the intended register (casual, formal, technical)
    and the length category (snippet, paragraph, essay). These drive how hard you lean on
    each step.
-2. **Scan** against `references/upstream-patterns.md`. Check the "what not to flag"
+2. **Scan** against `references/upstream-patterns.md`. Check the "When not to act"
    section there too, so you don't strip out real writing.
 3. **Rewrite** to remove the patterns while preserving meaning, register, and voice.
 4. **Self-audit.** Re-read your draft and silently ask what still reads as AI-generated.
@@ -101,13 +102,15 @@ stronger with a specific the source does not contain, use a bracketed placeholde
 ("[founded year?]") or ask for it. Fiction is the exception: invented detail is the job
 there.
 
-**Judge density, not presence, with three exceptions.** Most of the patterns are density
-tells, not banned constructs. Humans use triplets, hedges, and bold text too; what marks
-AI writing is how often, and how uniformly. One "crucial" is a word, five is a pattern.
-When in doubt, judge the count against the length of the piece and the register a human
-would use in the same context.
+**Follow the catalog's strength order.** The catalog ranks its patterns strongest
+first. The staging patterns at the top (such as "not X but Y" and one-line closers) are
+worth fixing on one sighting. A pattern the catalog marks *weak alone* needs other tells
+in the same passage before you act. Everything in between is a density tell: humans use
+triplets, hedges, and bold text too, and what marks AI writing is how often, and how
+uniformly. One "crucial" is a word, five is a pattern. When in doubt, judge the count
+against the length of the piece and the register a human would use in the same context.
 
-Three things are worth fixing even once:
+Three things are always worth fixing, even once, wherever the catalog ranks them:
 
 - **Em and en dashes.** The catalog's rule is absolute and this bundle follows it: the
   final text contains no em dashes and no en dashes. Replace each one with a comma, a

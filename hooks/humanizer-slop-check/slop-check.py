@@ -17,14 +17,16 @@ import sys
 # references/upstream-patterns.md (the sales-language and overused-word lists).
 # Single words are matched on word boundaries; phrases are matched as substrings.
 AI_WORDS = [
-    "bustling", "crucial", "delve", "elevate", "empower", "fostering",
+    "bolster", "bustling", "crucial", "delve", "elevate", "empower", "fostering",
     "game-changer", "garner", "holistic", "interplay", "intricate", "leverage",
-    "nestled", "pivotal", "robust", "seamless", "showcase", "streamline",
-    "supercharge", "tapestry", "testament", "underscore", "unlock", "vibrant",
+    "meticulous", "nestled", "pivotal", "robust", "seamless", "showcase",
+    "streamline", "supercharge", "tapestry", "testament", "underscore", "unlock",
+    "vibrant",
 ]
 AI_PHRASES = [
     "at its core", "the real question", "here's the thing", "let's dive",
     "in order to", "ever-evolving", "navigating the", "in the realm of",
+    "deep dive", "let that sink in", "read that again", "without further ado",
 ]
 
 # Empty intensifiers, from the "Adverbs earn their place" rule the persona and
