@@ -122,7 +122,7 @@ For an emailed deck, screenshots are more workable because the reader can study 
 - Hockey-stick projections without underlying trend.
 - Claiming traction the founder cannot prove.
 
-**Important:** No traction is OK at very early stages. Many funded companies have none. **Do not invent traction.** If there is none, skip this slide and lean on customer evidence elsewhere.
+**Important:** No traction is OK at the earliest stages. Many funded companies have none. **Do not invent traction.** If there is none, skip this slide and lean on customer evidence elsewhere.
 
 **Weak:** "We have great traction. 5,000 users."
 
@@ -214,7 +214,7 @@ The strongest why-now arguments usually combine two of these. A technology shift
 
 In short decks (1 to 3 minutes), the why-now argument can be folded into the problem slide or the competition slide rather than getting its own slide. The founder can say "this is possible now because of X" in one sentence. In longer decks (5 to 10 minutes), why-now usually deserves its own slide when the timing argument is central to the company's story.
 
-The why-now slide is essential whenever the founder's pitch is "this is possible now in a way it was not before." If the company could have been built 10 years ago and just was not, the founder needs a different argument (usually team or distribution).
+The why-now slide is essential whenever the founder's pitch is "this is possible now in a way it was not before." If the company could have been built 10 years ago and was not, the founder needs a different argument (usually team or distribution).
 
 ---
 
@@ -250,7 +250,7 @@ The why-now slide is essential whenever the founder's pitch is "this is possible
 
 **What to avoid:**
 - Generic words ("hard-working", "dedicated", "passionate").
-- Listing every advisor and mentor. **At pre-seed and first-fundraise stage, advisor and mentor logos are noise.** Investors see through it. Include advisors only when they are genuinely active in the company and recognised in the relevant domain.
+- Listing every advisor and mentor. **At pre-seed and first-fundraise stage, advisor and mentor logos are noise.** Investors see through it. Include advisors only when they are active in the company and recognised in the relevant domain.
 - Listing the current startup as the founder's "impressive achievement."
 - Vague role descriptions ("we all do a bit of everything").
 
@@ -304,4 +304,4 @@ If vision was placed earlier in the deck (for example, right after the problem i
 - A vision line in body-text sizing (24 to 32px) competing with a larger wordmark or tagline. If vision is on this slide, vision is the largest element.
 - "Thank you" alone with no contact details. Wasted real estate.
 - Recapping every previous slide.
-- Asking for the audience's questions in writing on the slide. Just say it.
+- Asking for the audience's questions in writing on the slide. Say it.

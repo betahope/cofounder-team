@@ -2,23 +2,23 @@
 
 This is the question where software founders bluff. They reach for "proprietary data," "AI," or "first-mover advantage" because they feel they need a moat and do not have an obvious one. Readers see through all three.
 
-The framing prompts (10x not 10%, the fill-in-the-blank) are in `questions.md`. Read this file when a founder is leaning on a false moat, genuinely has no obvious defensibility, or wants help finding a real one. It applies to any program.
+The framing prompts (10x not 10%, the fill-in-the-blank) are in `questions.md`. Read this file when a founder is leaning on a false moat, has no obvious defensibility, or wants help finding a real one. It applies to any program.
 
 ## The honest starting point
 
-Most early-stage software startups have very few real defensibilities yet, and that is normal. Defensibility is layered in over time, not present at seed. A genuine, durable technology moat mostly lives in hardware, deeptech, techbio, and foundational science, not in application software. So the goal of a strong answer is not to fake a moat. It is to name the one advantage the founder is building first and show a credible path to the deeper moats that come with scale.
+Most early-stage software startups have few real defensibilities yet, and that is normal. Defensibility is layered in over time, not present at seed. A genuine, durable technology moat mostly lives in hardware, deeptech, techbio, and foundational science, not in application software. So the goal of a strong answer is not to fake a moat. It is to name the one advantage the founder is building first and show a credible path to the deeper moats that come with scale.
 
 A founder who writes "we are the only ones who can do X" without proof reads as naive. A founder who writes "here is the moat we are building first, here is why it compounds, and here is what deepens it as we grow" reads as someone who actually understands defensibility.
 
 ## The data-moat fallacy (kill this reflex first)
 
-"We have proprietary data" is the most common false moat. Most so-called data network effects are really data scale effects, and scale effects are weak. Often the economics invert: the cost of adding useful data rises while the value of each new data point falls, because the easy cases get covered quickly and the long tail is messy and rarely repeats. In AI specifically, moats are shallower than founders expect. The model is often a pass-through to the underlying product and data.
+"We have proprietary data" is the most common false moat. Most so-called data network effects are data scale effects in disguise, and scale effects are weak. Often the economics invert: the cost of adding useful data rises while the value of each new data point falls, because the easy cases get covered quickly and the long tail is messy and rarely repeats. In AI specifically, moats are shallower than founders expect. The model is often a pass-through to the underlying product and data.
 
 If a founder claims a data moat, pressure-test it with three questions:
 
-1. **Does the data compound?** Does each new customer's data make the product meaningfully better for the next, or do you just have more of the same?
+1. **Does the data compound?** Does each new customer's data make the product meaningfully better for the next, or do you only have more of the same?
 2. **Can a competitor reconstruct it** from public or adjacent sources, cheaply?
-3. **Is it unique to a domain you own,** or is it generic? A model fine-tuned on genuinely unique domain data can be a moat. "Lots of data" is not.
+3. **Is it unique to a domain you own,** or is it generic? A model fine-tuned on unique domain data can be a moat. "Lots of data" is not.
 
 If the answers are weak, redirect them to a real defensibility below.
 
@@ -30,7 +30,7 @@ If the answers are weak, redirect them to a real defensibility below.
 - **Scale economies.** Cost advantages that grow with size. Mostly a later-stage moat.
 - **Execution velocity.** Shipping and learning faster than anyone else. Real but temporary, and only durable if it feeds a compounding moat.
 - **Distribution.** A proprietary or unusually cheap channel to customers. A hard-to-replicate channel has become a major source of rapid early growth and is a legitimate early advantage.
-- **Counter-positioning.** A business model the incumbent cannot copy without damaging its own core business (pricing that cannibalises their main revenue, a channel that undercuts their sales force). Rare, but powerful when it genuinely holds; the test is "what breaks for them if they follow us?"
+- **Counter-positioning.** A business model the incumbent cannot copy without damaging its own core business (pricing that cannibalises their main revenue, a channel that undercuts their sales force). Rare, but powerful when it holds; the test is "what breaks for them if they follow us?"
 - **Regulatory and compliance position.** Licences, certifications, clearances, and audit status that take real time and money to earn (a medical device clearance, a payments licence, security certifications in a market that demands them). One of the few moats that can be real early, especially in fintech, health, and other regulated spaces. Only claim it if it is held or credibly in progress, not merely planned.
 
 ## Wrap around the workflow (the most useful lens for software)
@@ -39,10 +39,10 @@ You cannot build a moat on the newest technology, because it is obsolete tomorro
 
 ## How to coach or critique this answer
 
-1. If the founder claims "proprietary data," "AI," or "first-mover," run the data-moat pressure-test and redirect unless it truly holds.
+1. If the founder claims "proprietary data," "AI," or "first-mover," run the data-moat pressure-test and redirect unless it holds up.
 2. Identify which real defensibility from the menu actually fits their business. For most early software startups it is switching costs and workflow embedding, and/or distribution, with network effects or brand as the future moat.
 3. Frame the answer as "the moat we are building first, why it compounds, what deepens it at scale." Honesty about sequencing beats a fake day-one moat.
-4. Make it concrete with the framing prompts: What makes you 10x better, not 10%? 80% cheaper or 4x faster? What counterintuitive approach is right? What is genuinely hard to replicate? Finish the sentence: "We are the only company in the world that ______ for our customers."
+4. Make it concrete with the framing prompts: What makes you 10x better, not 10%? 80% cheaper or 4x faster? What counterintuitive approach is right? What is hard to replicate? Finish the sentence: "We are the only company in the world that ______ for our customers."
 
 ## Worked example: false moat to honest sequencing
 

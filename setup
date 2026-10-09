@@ -28,6 +28,13 @@ case "${OSTYPE:-}" in
   msys*|cygwin*|win32*) USE_COPY=1 ;;
 esac
 
+# First install? jack has shipped since the first version, so if no link or copy of
+# it is there yet, this machine has never run setup. Checked before anything is linked.
+FIRST_INSTALL=1
+if [ -L "$SKILLS_DIR/jack" ] || [ -f "$SKILLS_DIR/jack/.cofounder-team" ]; then
+  FIRST_INSTALL=0
+fi
+
 installed=0
 skipped=0
 
@@ -77,3 +84,9 @@ fi
 
 echo ""
 echo "Done. Start a new Claude Code session to load the skills."
+
+if [ "$FIRST_INSTALL" -eq 1 ]; then
+  echo ""
+  echo "First time? In your project's folder, start Claude Code and type /team kickoff."
+  echo "The team will spend five minutes learning the basics about your company."
+fi

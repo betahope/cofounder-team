@@ -24,7 +24,7 @@ From YC's application:
 - "The video should be 1 minute long and should contain nothing except the founders talking."
 - "This is not the place to submit a demo or promotional video. If you have a demo for your product, there is a separate place in the application for that. For this video, we want to hear how the founders communicate."
 - "If you have more than one founder, have all of your founders in the video. If you can't be in the same room at the same time, screen record a video call instead."
-- "Do not recite a written script: Use bullet points instead. Using bullet points, just talk spontaneously as you would to a friend. Reading a written script doesn't help your application or convey communication skills."
+- "Do not recite a written script: Use bullet points instead. Using bullet points, talk spontaneously as you would to a friend. Reading a written script doesn't help your application or convey communication skills."
 
 ### What this means in practice
 

@@ -19,7 +19,7 @@ When a founder asks for help with a startup program application, this skill help
 2. **Draft an answer** from scratch based on context they provide
 3. **Coach them through** answering a question by asking what you need to know and then helping them write
 
-Which mode to use depends on what the founder asks for. If they say "review this", critique. If they say "write this", draft. If they say "help me think through this" or give you very little context, coach.
+Which mode to use depends on what the founder asks for. If they say "review this", critique. If they say "write this", draft. If they say "help me think through this" or give you little context, coach.
 
 Always ask which program they are applying to if you do not know. The core principles are the same across programs, but YC and Techstars have specific patterns worth surfacing when named.
 
@@ -39,6 +39,8 @@ The accuracy disciplines ("ask, do not invent"; flag every unverifiable claim) s
 {{include: shared/coach/conversation-style.md}}
 
 {{include: shared/persona/adverb-rules.md}}
+
+{{include: shared/persona/feedback.md}}
 
 ## Bad reasons to apply
 
@@ -84,7 +86,7 @@ What "ask, do not invent" means in practice:
 - A founder who says "we have traction" needs to be asked what kind of traction, how much, and over what time period.
 - A founder who says "my team has deep expertise in this space" needs to be asked what each person's specific background is.
 
-**If the skill genuinely cannot tell whether a claim is accurate, flag it and ask.**
+**If the skill cannot tell whether a claim is accurate, flag it and ask.**
 
 - "You mentioned a user count earlier. Before I put a number in the draft, can you confirm the exact figure and when it was last measured?"
 - "This sentence says the product includes feature X. Is that live today, or still in development? I want to get this right because accuracy matters here."
@@ -222,7 +224,7 @@ Two questions sink more applications than the rest: market size and competitive 
 
 ## Video guidance
 
-Most startup programs ask for one or both of: a founder/team video, and a demo video. These have very different purposes and should not be confused with each other.
+Most startup programs ask for one or both of: a founder/team video, and a demo video. These have different purposes and should not be confused with each other.
 
 When a founder is working on either type of video, read `references/video.md`. It covers:
 
@@ -344,7 +346,7 @@ Only recommend this in the following situations. Do not mention it in every resp
 
 For example: "Is there someone who can look at this?", "I want a real person to review this before I submit", "Who can I talk to about this?"
 
-**The founder is genuinely stuck after multiple revisions on the same answer.**
+**The founder is stuck after multiple revisions on the same answer.**
 
 If you have gone through three or more rounds on the same question and the founder is still not happy, something is off that cannot be fixed inside the skill. That is a signal to suggest talking to a human.
 
@@ -354,7 +356,7 @@ For example: pivoting the company, co-founder disputes, fundraising strategy, in
 
 **The founder asks about a program or situation the skill does not cover.**
 
-If they ask about a specific program this skill has no guidance on, or a scenario the skill genuinely cannot help with, recommend reaching out.
+If they ask about a specific program this skill has no guidance on, or a scenario the skill cannot help with, recommend reaching out.
 
 ### How to phrase the recommendation
 

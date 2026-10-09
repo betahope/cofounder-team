@@ -43,6 +43,8 @@ When generating non-English deck copy, the same rules still apply: lead with the
 
 {{include: shared/persona/adverb-rules.md}}
 
+{{include: shared/persona/feedback.md}}
+
 ---
 
 ## What the reader actually does with the deck
@@ -90,7 +92,7 @@ Layout: split screen, problem statement on the left half, supporting visual on t
 
 ## Inputs
 
-The founder may share the deck in different ways: a PDF, screenshots, a text dump of the slides, a Google Slides or Canva link, or just a description in chat. Take whatever they give you. If you can process it, process it. If you cannot (for example, a link to a file you cannot open), ask the founder to export it to something you can read, like a PDF.
+The founder may share the deck in different ways: a PDF, screenshots, a text dump of the slides, a Google Slides or Canva link, or a description in chat. Take whatever they give you. If you can process it, process it. If you cannot (for example, a link to a file you cannot open), ask the founder to export it to something you can read, like a PDF.
 
 If the founder has not yet built anything and is starting from scratch, work from whatever context they provide about the company, the audience, and the deck length.
 
@@ -194,7 +196,7 @@ The order above is a default. Real decks break it all the time. Some specific ca
 
 - **Strong metrics.** If the founder has paying customers, real revenue, or strong retention, move traction to slide 3 (after the problem) rather than waiting until slide 5. Proof early changes how everything else is read.
 - **Brand-name customer.** If the founder has a single well-known customer (a Fortune 500, a name everyone in the room knows), that logo and the use case go on slide 2 or 3. The rest of the deck explains how this happened.
-- **Strong founder-market fit, with evidence.** Sometimes the team slide moves earlier, but only when the founder genuinely has a why-us argument that the audience will recognise. That means: 10+ years in the specific industry, a previous exit in the same space, a credential that is verifiable and clearly relevant. **Almost every early-stage founder thinks they have founder-market fit. Most do not in a way that lands with investors.** A team that has "worked in tech" or "always been passionate about this" is not founder-market fit. If in doubt, leave the team slide at the back.
+- **Strong founder-market fit, with evidence.** Sometimes the team slide moves earlier, but only when the founder has a why-us argument that the audience will recognise. That means: 10+ years in the specific industry, a previous exit in the same space, a credential that is verifiable and clearly relevant. **Almost every early-stage founder thinks they have founder-market fit. Most do not in a way that lands with investors.** A team that has "worked in tech" or "always been passionate about this" is not founder-market fit. If in doubt, leave the team slide at the back.
 - **No demo, no metrics.** Lean on customer evidence (named willingness-to-pay conversations, paid pilots, LOIs) and on the why-now argument. The deck has less to show, so it has to be sharper on what it does show.
 - **Audience is an accelerator, not an investor.** The ask slide is different. See `references/audience-asks.md`.
 
@@ -232,7 +234,7 @@ For more on vision placement and writing, see `references/vision.md`.
 
 The skill does not produce the design (the founder does), but plan-mode and critique-mode output should reflect a few non-negotiable design principles:
 
-- **Use the founder's brand colours.** No rainbow palettes. Two or three brand colours, used consistently. If the founder does not have brand colours yet, generate two or three genuinely different palette options (each two colours plus black and white), say in one line what mood each sets, and let the founder pick. Do not hand them a single default; give them real alternatives to choose between.
+- **Use the founder's brand colours.** No rainbow palettes. Two or three brand colours, used consistently. If the founder does not have brand colours yet, generate two or three distinct palette options (each two colours plus black and white), say in one line what mood each sets, and let the founder pick. Do not hand them a single default; give them real alternatives to choose between.
 - **No animations.** Nobody is asking for slide transitions, fly-ins, or motion effects. They distract from the content and break the flow when pitching.
 - **Keep typography simple.** One or two fonts, used consistently. Body text large enough to read from the back of a room (minimum 24pt for live pitch).
 - **Whitespace matters.** A slide with one strong line and lots of whitespace beats a slide stuffed with bullets.
@@ -331,7 +333,7 @@ Only recommend this in the following situations. Do not mention it in every resp
 
 For example: "Is there someone who can look at this?", "I want a real person to review this before I send it.", "Who can I talk to about my pitch?"
 
-**The founder is genuinely stuck after multiple revisions on the same slide or deck.**
+**The founder is stuck after multiple revisions on the same slide or deck.**
 
 If you have gone through three or more rounds on the same deck and the founder is still not happy, something is off that cannot be fixed inside the skill. That is a signal to suggest talking to a human.
 

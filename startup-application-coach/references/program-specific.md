@@ -84,7 +84,7 @@ If invited, the interview is a 10-minute Zoom call. Two to four YC partners on t
 
 YC sends feedback with each interview rejection. This feedback is specific and actionable. Founders who re-apply having addressed the feedback are heavily weighted in their favour. Many accepted YC founders applied 3, 5, or 7 times, each time addressing the prior feedback.
 
-Internalising and addressing that feedback in a future application genuinely helps. This is tracked.
+Internalising and addressing that feedback in a future application helps. This is tracked.
 
 ### YC traps to avoid
 
@@ -150,7 +150,7 @@ Techstars gives you explicit prompts to work with on the competitive advantage q
 - What is hard for a competitor to replicate?
 - Fill in the blank: "We are the only company in the world that _____ for our customers."
 
-These are genuinely useful prompts. Use them to stress-test your answer.
+These are useful prompts. Use them to stress-test your answer.
 
 Most early software startups do not have a durable moat on day one, and that is normal. The strongest answer names the one defensibility being built first and the path to deeper ones, not a faked moat. Watch for the three false moats founders reach for: "proprietary data," "AI," and "first-mover advantage." For the modern view (the data-moat fallacy, the real defensibilities, the chokepoint and workflow-embedding lens, and the option to research the customer's chokepoints), read `moats.md`.
 
@@ -205,7 +205,7 @@ If invited to an interview, the specific things Speedrun pays attention to:
 
 **Short decks.** Five to ten slides, large fonts, one idea per slide. Dense slides read as a sign the founder cannot compress the thing.
 
-**Team chemistry on the call.** Do the cofounders interrupt each other? Talk over each other? Disagree openly and resolve it? Reviewers watch how the team functions together, beyond what is said. Clear role division helps. A B2B team without a sales-oriented founder reads as incomplete. Expect questions about hard decisions you have made as a team and how you made them. Reviewers use these to probe whether cofounders have worked through real conflict, or just get along on paper.
+**Team chemistry on the call.** Do the cofounders interrupt each other? Talk over each other? Disagree openly and resolve it? Reviewers watch how the team functions together, beyond what is said. Clear role division helps. A B2B team without a sales-oriented founder reads as incomplete. Expect questions about hard decisions you have made as a team and how you made them. Reviewers use these to probe whether cofounders have worked through real conflict, or only get along on paper.
 
 **Team narrative with conviction.** Any given Speedrun decision is held against dozens of other strong teams in the same review. The team narrative has to give the reader something specific to believe in. Vague self-description ("hard-working", "passionate") is the opposite of what works. Be matter of fact about what each founder has actually done, why that makes them the right person for this specific company, and what evidence backs it up.
 

@@ -14,7 +14,7 @@ A bottom-up TAM is built from the ground up: count the real buyers, multiply by 
 
 **Step 3: Set a realistic annual revenue per buyer (ACV).** Annual Contract Value is what one buyer pays you per year. Base it on actual pricing or a defensible planned price, not a hopeful one. If you bill monthly, annualise it ($100/mo becomes $1,200 ACV).
 
-**Step 4: Segment when buyers differ.** If buyers split into groups that pay very differently (enterprise versus SMB, multi-location versus single), do not blend them into one average. Compute each segment separately: buyers in segment × ACV for that segment. This is more honest and usually more persuasive.
+**Step 4: Segment when buyers differ.** If buyers split into groups that pay differently (enterprise versus SMB, multi-location versus single), do not blend them into one average. Compute each segment separately: buyers in segment × ACV for that segment. This is more honest and usually more persuasive.
 
 **Step 5: Multiply and sum.**
 - Single segment: TAM = ACV × number of real buyers

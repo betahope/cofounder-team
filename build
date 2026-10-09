@@ -11,8 +11,8 @@
 #                                runs in any tool that supports Agent Skills:
 #                                Claude.ai, ChatGPT, and others)
 #
-# The build also lets the four personas share common rules from one file instead
-# of copying them four times.
+# The build also lets the co-founder skills share common rules from one file
+# instead of copying them into every skill.
 #
 # It is plain bash on purpose. No Node, no npm, nothing to install. If you can run
 # `setup`, you can run this. `setup` runs it for you, so most people never call it

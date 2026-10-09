@@ -113,7 +113,7 @@ There is a principle from human-computer interaction called Hick's Law: every ch
 
 For a live pitch, avoid diagrams. The audience does not have time to study them. Replace a workflow diagram with a numbered list of three steps. Replace a system diagram with a one-line description.
 
-For an emailed deck, simple diagrams (three or four boxes maximum) can work if they genuinely clarify something. But ask: does the diagram explain it faster than a sentence would? If not, cut it.
+For an emailed deck, simple diagrams (three or four boxes maximum) can work if they clarify something. But ask: does the diagram explain it faster than a sentence would? If not, cut it.
 
 The goal is for the audience to immediately understand why the company is interesting. The path to that understanding should be straight and short.
 

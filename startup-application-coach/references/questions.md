@@ -98,7 +98,7 @@ This is compatible with the inverted-pyramid guidance in `SKILL.md`: lead with t
 - Vanity metrics that do not reflect real engagement
 - Extraordinary claims without extraordinary evidence
 
-**Important:** No traction is OK at very early stages. Many accepted startups have none. Do not invent traction. If you do not have it, say so and focus on what evidence of demand you do have, even if that is qualitative.
+**Important:** No traction is OK at the earliest stages. Many accepted startups have none. Do not invent traction. If you do not have it, say so and focus on what evidence of demand you do have, even if that is qualitative.
 
 **Willingness-to-pay conversations count as traction at the early stages.** A handful of qualified conversations where a buyer told you what they would pay, what they would not, and what would make them switch is a stronger signal than a long list of free signups. Name the people you spoke with where you can. "We spoke with the heads of operations at three regional hospital chains, all of whom said they would pay $X for Y once we can prove Z" beats "we did customer development."
 
@@ -288,7 +288,7 @@ The more specific, the better. This is your Ideal Customer Profile.
 
 ## The YC wildcard: "Tell us about a time you most successfully hacked a non-computer system to your advantage"
 
-**What it is really asking:** Are you the kind of person who figures things out and bends rules, rather than someone who just follows the system as given?
+**What it is really asking:** Are you the kind of person who figures things out and bends rules, rather than someone who follows the system as given?
 
 **What good looks like:**
 - A specific, concrete story

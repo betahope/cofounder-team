@@ -14,6 +14,28 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+## [0.18.0] - 2026-10-09
+
+A technical co-founder joins the team, a five-minute welcome chat gives every co-founder the company basics, and founders get a way to send feedback.
+
+### Added
+
+- **Sam Okafor, technical co-founder (`sam`).** For founders who do not code: build versus buy, no-code versus custom code, choosing tools, hosting and AI costs, adding AI to the product, hiring and managing developers, freelancers, and agencies, security and privacy basics, and technical due diligence. Sam gives technical judgement and plans; Sam does not write the product's code. Follows the same shape and shared rules as the other co-founders.
+- **Welcome chat.** Say "welcome chat", "kickoff", or `/team kickoff` and the team spends about five minutes on the company basics (what it does and for whom, stage and numbers, team, money, top goal and biggest worry, location), two or three questions at a time, with no guessing. The steps live in the `team` skill.
+  - **Claude Code:** the answers are saved to the shared company memory file, `./.cofounder-team/company.md`.
+  - **Claude.ai, ChatGPT, and other tools:** the team writes a short company brief for the founder to save in their project, so every new chat starts from it. Until now these users had no company memory at all.
+  - **The offer.** When a co-founder or coach finds no saved basics, it answers the question first, then offers the welcome chat in one line, once per conversation. In Claude Code, a founder who says not to ask again is never asked again in that project.
+  - **First install.** `setup` now tells first-time Claude Code users to type `/team kickoff`. Upgrades do not show the message.
+- **A real example in the README.** A new "See it in action" section shows an unedited `/team` reply on a made-up pricing question.
+- **A way to send feedback.** Founders can email cofounder@yourstartupadvisor.com. A new shared snippet, `shared/persona/feedback.md`, is included by all eight advising skills (Jack, Maya, Priya, Dan, Sam, `team`, and both coaches). When a founder wants to give feedback on the team, the skill gives the address and offers to draft a short email (what they asked, what helped, what did not). The founder sends it themselves. Skills never raise feedback unprompted, apart from one line at the end of the welcome chat. The README has a new Feedback section.
+
+### Changed
+
+- **Every co-founder hands technical questions to Sam.** Jack, Maya, Priya, Dan, and `team` used to say technical decisions belonged to no one on the team. Each now names Sam and says what Sam owns in their overlap: Jack gets the cost of serving each customer before pricing, Maya decides what matters to users and Sam sizes it, Priya picks creative tools and Sam checks cost and data, and Dan gets the engineering costs and hiring plan for the financial model.
+- **The skills follow their own adverb rule.** About 50 empty intensifiers ("genuinely", "very", "truly", "just" meaning "merely") came out of the skills and their reference files. Quotes, examples, and uses where the word changes the meaning (such as "what the question is really asking") stay.
+- **Company memory now has a portable version.** `shared/persona/company-memory.md` keeps its Claude Code memory file and adds a portable block built on the company brief. In Claude Code, the old one-line "want me to save these basics?" offer is replaced by the welcome chat offer.
+- **The README, the Claude.ai project instructions template, the upgrade skill, and `CLAUDE.md` list Sam.** The README install steps and the template also point to the welcome chat.
+
 ## [0.17.0] - 2026-10-09
 
 The humanizer moves to upstream 3.1.0, and catalog updates now reach the maintainer.
