@@ -14,6 +14,10 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+### Changed
+
+- **Humanizer sync pull requests now notify the maintainer.** The weekly sync job opened its pull request with no one assigned and no reviewer, so a new upstream version could sit unnoticed (3.1.0 waited a month). It now assigns the pull request to `betahope` and requests their review, which triggers a GitHub email.
+
 ## [0.16.0] - 2026-08-30
 
 Adverbs earn their place: one shared word-level rule for every co-founder and coach.

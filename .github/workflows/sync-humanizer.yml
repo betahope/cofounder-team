@@ -6,7 +6,8 @@ name: Sync humanizer patterns from upstream
 #
 # This job runs `sync-humanizer` once a week. If blader has published a new
 # version, it opens a pull request with the updated catalog. Nothing lands
-# automatically: a human reviews and merges.
+# automatically: a human reviews and merges. The pull request is assigned to
+# betahope with a review request, so GitHub notifies them by email.
 #
 # Also runnable on demand from the Actions tab (Run workflow).
 #
@@ -53,6 +54,8 @@ jobs:
           branch: sync/humanizer-upstream
           delete-branch: true
           add-paths: humanizer/references/upstream-patterns.md
+          assignees: betahope
+          reviewers: betahope
           commit-message: "Sync humanizer catalog with upstream ${{ steps.sync.outputs.version }}"
           title: "Sync humanizer catalog with upstream ${{ steps.sync.outputs.version }}"
           body: |
