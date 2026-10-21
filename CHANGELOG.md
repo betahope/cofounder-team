@@ -14,6 +14,8 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+## [0.18.1] - 2026-10-21
+
 ### Changed
 
 - **Credits in `README.md`.** Updated Charles Hope's figure to 20+ startup programs and VC firms globally (was 17+ startup programs). Docs only, no skill behavior change.
