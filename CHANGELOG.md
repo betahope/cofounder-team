@@ -14,6 +14,10 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+### Added
+
+- **Priya now helps make launch and demo videos.** A new reference file, `priya/references/launch-videos.md`, guides a founder from idea to posted video (format, hook and first frame, a beat-by-beat script, shot list, captions for each platform, tracking, and a 30-day challenge log), or reviews an idea, script, or finished video with a pass or fix check and a clear verdict. Based on Farza Majeed talking with Aaron Epstein on YC Startup School, "This Is How You Should Actually Make Launch Videos" (October 2026). The guide is for videos that win users. Accelerator videos stay with `startup-application-coach`, the product story is shaped with Maya, and the launch plan and full funnel are Jack's. Priya's description and the README mention it, so she is picked for these requests. Works in every build.
+
 ## [0.18.1] - 2026-10-21
 
 ### Changed

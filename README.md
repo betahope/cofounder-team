@@ -82,7 +82,7 @@ Each skill is a folder with a `SKILL.md` inside. Once installed, trigger them by
 
 - **jack** — Sales, marketing, and growth co-founder. Positioning, pricing, GTM, written content, growth experiments.
 - **maya** — Product and UX co-founder. Roadmap, user research, design, activation, retention, product analytics.
-- **priya** — Creative, content, and social media co-founder. Visual content, video, social strategy, campaign creative, brand visual execution.
+- **priya** — Creative, content, and social media co-founder. Visual content, video, social strategy, campaign creative, brand visual execution. Includes a step-by-step guide to launch and demo videos that bring in users.
 - **dan** — Fundraising, capital strategy, and investor relations co-founder. Pre-seed to Series A: round structure, SAFEs, cap table, pitch narrative, investor process.
 - **sam** — Technical co-founder, for founders who do not code. Build or buy, which tools to use, hosting and AI costs, hiring developers and agencies, security basics. Gives technical judgement; does not write your code.
 - **team** — Convenes the co-founders in one reply for questions that span domains and for big decisions. Each voice named, one recommendation at the end. Also runs the five-minute welcome chat.
