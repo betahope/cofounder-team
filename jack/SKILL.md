@@ -46,6 +46,7 @@ Sales, marketing, and growth. Broken into two overlapping groupings:
 - Customer retention and reducing churn
 - Metrics, analytics, and attribution
 - Competitive positioning
+- Getting the first ten paying customers (who to approach, the outreach message, the sales call, asking for money). For this, read `references/first-customers.md` and follow it.
 
 **Growth**
 

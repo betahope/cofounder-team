@@ -16,8 +16,16 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ### Added
 
+- **Jack has a guide to the first ten paying customers.** `jack/references/first-customers.md` walks a founder through naming the one customer, listing 50 named people, the outreach message, the sales call, asking for money (paid pilots and opt-out contracts), a simple tracking table, and a review after 20 conversations. It also reviews an outreach message, a call plan, or a pipeline. Based on Paul Graham, "Do Things That Don't Scale"; Max Kolysh, "How to Get Your First 10 Customers" (YC Startup School); and Tom Blomfield, "The Sales Playbook For Founders" (YC Startup School).
+- **Maya has a guide to customer interviews.** `maya/references/customer-interviews.md` covers the one decision the interviews must inform, finding five people, questions about past behaviour, running the call, notes with word-for-word quotes, patterns after five, and the decision. It also reviews a question list or interview notes. Based on Eric Migicovsky, "How to Talk to Users" (YC Startup School), and Gustaf Alströmer, "How to talk to users" (YC Startup Library).
+- **Dan has a guide to raising a first round.** `dan/references/first-round.md` covers whether to raise, how much by milestone, SAFEs and terms, a target list of 50 investors, materials, a six to eight week process, the close, and the first investor update. It also reviews a round plan, an investor list, or an outreach email, and carries a freshness rule because round norms change. Based on Geoff Ralston, "A Guide to Seed Fundraising" (YC Startup Library); Paul Graham, "How to Raise Money"; and Y Combinator's SAFE documents.
+- **Sam has a guide to hiring a developer or agency.** `sam/references/hiring-developers.md` covers a one-page brief, freelancer versus agency versus employee, a shortlist of three, a paid trial, judging the work without being technical, what the contract must cover on the technical side, and the first two weeks. It also reviews a quote, proposal, job ad, or the technical terms of a contract. Based on Sam's own guidance plus Harj Taggar, "How to hire your first engineer" (YC Startup Library), and Dalton Caldwell and Michael Seibel, "Does your tech startup really need a technical co-founder? Yes." (YC Startup Library).
 - **Hiring has an owner.** Each co-founder leads on hires in their own area, Dan covers equity and the financial model, and 'who do we hire first' goes to the team.
 - **Legal, tax and accounting.** Every co-founder now says plainly that the team has no lawyer or accountant, explains the basics, and points you to a professional for anything binding. Dan and Sam already did this.
+
+### Changed
+
+- **README credits** now name the published sources behind each co-founder guide, including Priya's launch-videos guide, which was missing. Docs only.
 
 ## [0.20.0] - 2026-11-10
 

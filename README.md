@@ -103,11 +103,11 @@ This is built into the skills, not bolted on. Every persona carries a Boundaries
 
 Each skill is a folder with a `SKILL.md` inside. Once installed, trigger them by mentioning them ("ask Jack", "what would Maya think"). In Claude Code you can also type `/skill-name`.
 
-- **jack** — Sales, marketing, and growth co-founder. Positioning, pricing, GTM, written content, growth experiments.
-- **maya** — Product and UX co-founder. Roadmap, user research, design, activation, retention, product analytics.
+- **jack** — Sales, marketing, and growth co-founder. Positioning, pricing, GTM, written content, growth experiments. Includes a step-by-step guide to getting your first ten paying customers.
+- **maya** — Product and UX co-founder. Roadmap, user research, design, activation, retention, product analytics. Includes a step-by-step guide to customer interviews.
 - **priya** — Creative, content, and social media co-founder. Visual content, video, social strategy, campaign creative, brand visual execution. Includes a step-by-step guide to launch and demo videos that bring in users.
-- **dan** — Fundraising, capital strategy, and investor relations co-founder. Pre-seed to Series A: round structure, SAFEs, cap table, pitch narrative, investor process.
-- **sam** — Technical co-founder, for founders who do not code. Build or buy, which tools to use, hosting and AI costs, hiring developers and agencies, security basics. Gives technical judgement; does not write your code.
+- **dan** — Fundraising, capital strategy, and investor relations co-founder. Pre-seed to Series A: round structure, SAFEs, cap table, pitch narrative, investor process. Includes a step-by-step guide to raising a first round.
+- **sam** — Technical co-founder, for founders who do not code. Build or buy, which tools to use, hosting and AI costs, hiring developers and agencies, security basics. Gives technical judgement; does not write your code. Includes a step-by-step guide to hiring a developer or agency.
 - **team** — Convenes the co-founders in one reply for questions that span domains and for big decisions. Each voice named, one recommendation at the end. Also runs the five-minute welcome chat. Runs a five-minute weekly check-in (`/team weekly`).
 - **pitch-deck-coach** — Helps you plan, critique, and rewrite pitch decks for investors, accelerators, demo days, customers, or partners.
 - **startup-application-coach** — Helps you write stronger applications to accelerators, incubators, and pre-accelerators (YC, Techstars, EF, Antler, and others).
@@ -171,6 +171,16 @@ Every skill here follows the [Agent Skills](https://agentskills.io) format, an o
 ## Credits
 
 Built by Charles Hope at Your Startup Advisor. He has 26+ years of experience, including 14+ years in and around startups. The co-founder personas, the two coaches, and the structure that ties them into a team draw on his work with 700+ founders and 20+ startup programs and VC firms globally. Several skills also build on published guidance from others, credited below. Thanks to all these authors for making their advice public.
+
+**`jack`** — the first-customers guide draws on Paul Graham, "Do Things That Don't Scale"; Max Kolysh (Y Combinator), "How to Get Your First 10 Customers"; and Tom Blomfield (Y Combinator), "The Sales Playbook For Founders."
+
+**`maya`** — the customer-interviews guide draws on Eric Migicovsky (Y Combinator), "How to Talk to Users," and Gustaf Alströmer (Y Combinator), "How to talk to users."
+
+**`priya`** — the launch-videos guide is based on Farza Majeed talking with Aaron Epstein on YC Startup School, "This Is How You Should Actually Make Launch Videos."
+
+**`dan`** — the first-round guide draws on Geoff Ralston (Y Combinator), "A Guide to Seed Fundraising"; Paul Graham, "How to Raise Money"; and Y Combinator's SAFE documents.
+
+**`sam`** — the hiring guide draws on Harj Taggar, "How to hire your first engineer," and Dalton Caldwell and Michael Seibel (Y Combinator), "Does your tech startup really need a technical co-founder? Yes."
 
 **`pitch-deck-coach`** — Charles Hope's pitch-deck work with 700+ founders, plus design guidance adapted from Kevin Hale (Y Combinator), "How to design a better pitch deck." Kevin Hale's input is on how a deck should look (the legible / simple / obvious framing, the rules around screenshots, slide density, and Hick's Law on diagrams), not on what goes in it or how it is structured.
 

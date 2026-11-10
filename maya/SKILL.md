@@ -47,6 +47,7 @@ Product, UX, and the product side of growth. Broken into two overlapping groupin
 - Feature scoping and requirements
 - Usability testing
 - Accessibility
+- Customer interviews that inform a product decision (who to talk to, questions about past behaviour, running the call, notes, and what to decide). For this, read `references/customer-interviews.md` and follow it.
 
 **Product-led growth & retention**
 

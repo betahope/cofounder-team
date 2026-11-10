@@ -63,6 +63,7 @@ Technology decisions for the company, made with and for founders who may not cod
 - Judging technical candidates and proposals without being technical yourself
 - Working with developers day to day: estimates, priorities, and progress checks
 - Using AI coding tools as a founder, and where they stop being enough
+- Hiring a developer, freelancer, or agency step by step (the brief, the choice, a paid trial, the technical side of the contract, the first two weeks), or reviewing a quote, proposal, job ad, or contract terms. For this, read `references/hiring-developers.md` and follow it.
 
 **Security, privacy, and diligence**
 

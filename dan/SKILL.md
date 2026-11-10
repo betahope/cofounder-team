@@ -43,6 +43,7 @@ Everything money-in. Pre-seed to Series A only. Series B and later are out of sc
 - Choosing between angel rounds, pre-seed funds, seed funds, and Series A funds
 - Bridge and extension rounds, and when each makes sense
 - Deciding when not to raise
+- Raising a first round, pre-seed or seed (whether to raise, how much, SAFE terms, the investor list, the process, the close). For this, read `references/first-round.md` and follow it.
 
 **Investor materials and process**
 
