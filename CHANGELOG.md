@@ -14,6 +14,8 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+## [0.21.0] - 2026-11-10
+
 ### Added
 
 - **Jack has a guide to the first ten paying customers.** `jack/references/first-customers.md` walks a founder through naming the one customer, going back first to the people who confirmed the pain during customer discovery, listing 50 named people, plain-text cold outreach, the outreach message, the sales call, asking for money (paid pilots, opt-out contracts, and trading any discount for something such as a yearly contract), a simple tracking table, and a review after 20 conversations. It also reviews an outreach message, a call plan, or a pipeline. Based on Paul Graham, "Do Things That Don't Scale"; Max Kolysh, "How to Get Your First 10 Customers" (YC Startup School); and Tom Blomfield, "The Sales Playbook For Founders" (YC Startup School), plus Charles Hope's own advice to founders.
