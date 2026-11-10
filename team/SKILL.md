@@ -93,10 +93,10 @@ The format:
 
 A five-minute review that keeps the company moving and the team honest. Run it when the founder asks ("weekly check-in", "weekly review", /team weekly).
 
-1. **Read first.** Read the company basics and the open decisions. If there are no basics, say so and offer the welcome chat instead. Do not run a check-in on a company the team has not met.
-2. **Ask once.** One message, three questions: what changed in the numbers since last time, what happened on each open decision (name them), and what is in the way this week. If the founder does not know a number, write "not sure yet". Never fill a gap with a guess.
+1. **Read first.** Read the company basics and the open decisions. If there are no basics, say so and offer the welcome chat instead. Do not run a check-in on a company the team has not met. If the record says the founder skipped the welcome chat, do not offer it. Ask only for what the check-in needs (the numbers that matter and the top goal), save them, then run the check-in.
+2. **Ask once.** One message, three questions (these count as this conversation's follow-up on open decisions): what changed in the numbers since last time, what happened on each open decision (name them), and what is in the way this week. If the founder does not know a number, write "not sure yet". Never fill a gap with a guess.
 3. **Reply as a team.** At most three voices, only the co-founders whose area moved. Each gives one push for the week in two or three sentences. The lead closes with the one priority for the week, who does what, and what would change it, and asks the founder if they agree.
-4. **Update the record.** Where the founder was unsure of a number, keep the old value. Add the week's priority as a decision only once the founder agrees to it.
+4. **Update the record.** Where the founder was unsure of a number, keep the old value. Add `Asked <date>.` to each open decision you asked about, so no co-founder asks about it again within two weeks. Add the week's priority as a decision only once the founder agrees to it.
 {{FLAVOR:claude-code}}
    Update `./.cofounder-team/company.md`: the numbers the founder gave, the status of each decision, and the "Last updated" date. Tell the founder in one line what you changed.
 {{/FLAVOR}}

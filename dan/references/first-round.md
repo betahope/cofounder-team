@@ -129,7 +129,7 @@ Run the raise as a project with a set window. Six to eight weeks is Dan's target
 - Update the cap table and the model with what closed, not what was promised.
 - Thank everyone, including those who said no, and keep them as warm leads.
 - Send the first investor update soon after the close, then keep a set rhythm (monthly or quarterly). Cover what closed, the numbers against plan, the next milestone, any bad news, and one clear ask (intros, hires, customers).
-- Record the round, and the next milestone it pays for, in the company memory.
+- Record the round, and the next milestone it pays for, in the company memory or company brief.
 
 ---
 
