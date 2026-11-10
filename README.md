@@ -43,8 +43,6 @@ Works on any OS, no terminal needed.
 
 The `cofounder-team-upgrade` skill is not included in the Claude.ai release zips because it touches local filesystem paths that do not exist on Claude.ai. On Claude.ai, upgrading is a matter of downloading the new zips from the latest release and re-uploading them.
 
-Releases start at v0.3.0. Earlier versions (v0.1.0, v0.2.0) only ship via the Claude Code install path above.
-
 If you are using the skills inside a Claude.ai project, the repo also includes a [project instructions template](claude-ai-project-instructions-template.md) you can paste into the project's instructions field. It tells Claude how to route between the co-founders, when to bring more than one voice into a single message, and what defaults to apply.
 
 ### Install in ChatGPT
@@ -72,6 +70,8 @@ After it finishes, **start a new Claude Code session** so the skills load. Then,
 
 **Windows users:** run the command from Git Bash (or MSYS / Cygwin). WSL is also fine and behaves like Linux. The `setup` script auto-detects Windows-style shells and copies the skill folders instead of symlinking them, since symlinks are often blocked on Windows. The practical implication: re-run `bash ./setup` after every upgrade, or use `/cofounder-team-upgrade`, which handles this for you. If you would rather skip the shell entirely, the [Install in Claude.ai](#install-in-claudeai) path above needs no terminal at all.
 
+Curious how the build works? See [CLAUDE.md](CLAUDE.md).
+
 ### Install in other tools
 
 Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, and dozens of other tools also support Agent Skills. Download the zips from the [latest release](https://github.com/betahope/cofounder-team/releases/latest), unzip them, and put each skill folder where your tool keeps skills (its docs will say where, and [agentskills.io](https://agentskills.io) links each tool's setup guide). We build and test on Claude and ChatGPT, so in other tools treat the skills as expected to work rather than guaranteed. If one misbehaves, [open an issue](https://github.com/betahope/cofounder-team/issues).
@@ -97,7 +97,9 @@ Each skill is a folder with a `SKILL.md` inside. Once installed, trigger them by
 - **humanizer** — Strips AI tells out of any user-facing copy. The other skills call this one before showing you a draft. Its pattern catalog is [blader's humanizer](https://github.com/blader/humanizer), vendored here unchanged and re-synced automatically, so upgrading the bundle also gets you the latest patterns.
 - **cofounder-team-upgrade** — The upgrade skill itself. Runs the update workflow when you ask.
 
-## Upgrade
+## Stay up to date
+
+**Get told when a new version ships.** On the GitHub page, click **Watch → Custom → Releases** (you need a free GitHub account). GitHub emails you each time we release, with a list of what changed.
 
 ### Upgrade in Claude Code
 
@@ -109,7 +111,9 @@ Inside any Claude Code session, run:
 
 …or just ask in plain English: "upgrade cofounder-team" or "update my cofounder skills". Claude will pull the latest version from GitHub, re-link any new skills, show you the curated changelog of what shipped, and remind you to start a new session.
 
-**Windows users:** if you installed via Git Bash, setup copied the skill folders instead of linking them (Windows blocks symlinks in many setups). That means an upgrade has to re-copy the latest files. The upgrade skill handles this automatically, just re-run it whenever you want the newest version.
+On Windows, the upgrade skill re-copies the files for you.
+
+If you update by hand with `git pull`, run `bash ./setup` afterwards. A pull on its own does not rebuild the skills.
 
 ### Upgrade in Claude.ai
 
@@ -146,20 +150,6 @@ Tell us what works and what does not: email [cofounder@yourstartupadvisor.com](m
 ## Built on an open standard
 
 Every skill here follows the [Agent Skills](https://agentskills.io) format, an open standard started by Anthropic and now supported by dozens of AI tools. That is why the same release zips install cleanly in Claude, ChatGPT, and other tools, with nothing Claude-specific inside. See the [Install](#install) section above for the path that matches your tool.
-
-## How it works under the hood
-
-Three facts make the whole thing work:
-
-1. A Claude Code skill is just a folder with a `SKILL.md` file in it.
-2. Claude Code looks for personal skills in `~/.claude/skills/`.
-3. `setup` compiles the source skills into finished skills under `dist/claude-code/`, then symlinks each one into `~/.claude/skills/`.
-
-There is a small build step because the same source ships to two places: Claude Code (which can run the local-only extras like hooks and cross-session memory) and Claude.ai (which gets a simpler, words-only version). The build is plain bash, so "clone and run setup" is all you do.
-
-Because the entries in `~/.claude/skills/` are symlinks into the build (on macOS and Linux), an upgrade rebuilds and re-links in one step. After a `git pull`, run `bash ./setup` again (or use `/cofounder-team-upgrade`, which does it for you) so the latest source is rebuilt. A bare `git pull` on its own updates the source but not the built skill.
-
-On Windows, where symlinks are unreliable, setup falls back to copying the folders. Either way, re-run setup (or the upgrade skill) after a pull to get the new files.
 
 ## Credits
 
