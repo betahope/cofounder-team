@@ -83,7 +83,7 @@ If the answer is not yet, name the milestone that would change it.
 - **The tranche strategy** (Charles Hope, after Elizabeth Yin). Most investors wait to see who else commits. Tranches give them a reason to move now:
   - On SAFEs, split the raise into two or three tranches at rising caps. Still tell the market you are raising the full amount.
   - Split by milestones, never at random. Size each tranche to what it pays for. Ask: if only the first tranche closes, which milestones can we reach with that money? The first tranche must reach a real milestone on its own. Then do the same for the next one. (Step 3 sizes the whole round the same way.)
-  - Offer the first tranche at the lowest cap. The tranche ends when it fills: the amount is the limit, not a date. Then the cap rises for the next one.
+  - Offer the first tranche at the lowest cap. Lead with the amount: the tranche ends when it fills. You can also set an end date for the special terms (whichever comes first), but filling the tranche is what matters. Then the cap rises for the next one.
   - As a tranche fills, tell every investor you have spoken with what is left before the cap rises. It is true, and it forces a decision.
   - Read the demand. Overwhelming: the cap was too low, so raise it for the next tranche. Steady: keep taking money on the same terms. None, even at the special terms: pause the raise and go back to building.
   - Do not go past three tranches on an early round. More starts to look like games, and investors talk to each other.
