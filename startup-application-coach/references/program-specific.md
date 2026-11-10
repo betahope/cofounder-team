@@ -1,10 +1,10 @@
 # Program-specific notes
 
-The question-by-question guide covers what is common across programs. This file covers what is specific to YC, Techstars, and a16z Speedrun.
+The question-by-question guide covers what is common across programs. This file covers what is specific to YC, Techstars, a16z Speedrun, Entrepreneurs First (EF), and Antler.
 
 Only reference a section when the founder has named that specific program or asked about it.
 
-**Freshness rule.** Program details change between batches: acceptance stats, question wording, character limits, batch cadence, and interview formats all move. The figures below were accurate when written (mid-2026). Wherever this file and the program's live application or website disagree, trust the live version, and tell the founder that is what you are doing.
+**Freshness rule.** Program details change between batches: acceptance stats, question wording, character limits, batch cadence, and interview formats all move. The figures below were accurate when written (mid-2026, unless a section gives its own month). Wherever this file and the program's live application or website disagree, trust the live version, and tell the founder that is what you are doing.
 
 ---
 
@@ -227,6 +227,128 @@ If invited to an interview, the specific things Speedrun pays attention to:
 - Strong online presence where it matters for the category (Twitter, GitHub, writing, video).
 - Anticipated questions. Reviewers form predictable questions as they read. How big is this market really. Why has nobody done this already. Who specifically is the buyer. Strong applications answer those questions inside the application itself, rather than leaving them for the interview.
 - Speedrun's stated rule on AI usage. Their public guidance: the unique framing of the space, the market, and the opportunity should come from the founder. The validation should come from the founder. AI can help with brevity and language polish, but not with the insight itself. Applications that read as if AI generated the framing are a negative signal.
+
+---
+
+## Entrepreneurs First (EF)
+
+Written November 2026, from EF's own apply page, FAQ, and blog. Program names, dates, and sums change between cohorts, and any figure here is EF's own claim at the time of writing. Check joinef.com before quoting any of them.
+
+### How EF reads applications
+
+EF assesses the person, not a company. Its FAQ says: "We assess all applicants as individuals, before they have a business, cofounder or an idea." You do not need a cofounder or an idea to apply. The program exists to bring individuals together to find a cofounder and build a company from scratch. EF says 80% of participants find a cofounder within eight weeks.
+
+This changes how the founder should answer:
+
+- **The founder is the subject.** EF says it does not assess people on their ideas. It looks for "the talent, ambition, and founder aptitude to build a globally important startup." Spend the words on what you have done, not on a business plan.
+- **An idea is optional, but interests help.** EF says most applicants have a range of areas they are interested in or exploring. Name yours. Do not dress up an early idea as a company.
+- **A cofounder is optional.** If you already have one, EF asks you to say so in the application and to ask them to submit their own. Each person is assessed as an individual.
+- **The first screen is short.** The opening form asks for name, email, phone, and a LinkedIn profile (or a personal website if you have no LinkedIn). The rest of the questions open after you verify your email. That link is part of your application, so keep it current.
+- **Apply early.** EF reviews applications on a rolling basis. Its Bangalore page says the earlier you apply, the higher your chances. If EF thinks you fit, it invites you to meet its Talent Investing team.
+
+### What EF specifically weighs
+
+**An outlier track record, early in a career.** EF says its programs are most valuable for people early in their careers who can show "exceptional outcomes relative to their peers." It calls these people outliers. Its homepage says EF is for individuals who have continuously outperformed their peer group, have built products, organizations, or startups in the past, and have the ambition to build a company in the U.S. Give concrete evidence for each: what you did, compared with whom, and the result.
+
+**Ambition.** EF describes this as an urge to build at a scale most people cannot imagine: obsessed with big ideas, bored by the obvious, and with the agency and skills to make future technology happen.
+
+**Founder aptitude.** EF's FAQ describes founders whom others have followed, who have an extreme bias to action, and who respond to new challenges by building. Stories where people followed your lead, and things you built in response to a problem, are the evidence that fits.
+
+**Technical depth.** EF builds technology companies. It says most people who join have a technical background, "from self-taught developer through to a Computer Science PhD." It takes a small number of non-technical people who show solid technical understanding. A non-technical applicant should give evidence of that understanding.
+
+**Your Edge.** EF's blog post "Play your strongest card: how to find your Edge as a founder" defines Edge as the mix of skills, knowledge, behaviours, and experience that puts you in a better position than almost anyone else to build a particular company. It is how you answer "Why you?" The post names three types:
+
+1. **Tech Edge.** Expertise in a technical domain that others do not yet fully understand, and a view of new ways to apply it.
+2. **Market Edge.** Enough time in an industry to understand the status quo and want to challenge it, with non-obvious insights an outsider could not find. The post warns that too much time in one industry can leave you entrenched in the status quo.
+3. **Catalyst Edge.** The ability to bring people together, assemble resources, and create momentum others cannot. The post says someone young and fresh out of college likely has this type, and wins by moving faster than everyone around them.
+
+The post is about founding, not about the form. But it gives EF's own words for "why you." Help the founder name and rank their Edges, then back each one with a fact.
+
+**Full-time, in person.** EF expects a full-time commitment and a move to one of its hub cities. Do not apply unless you can do that.
+
+**The right program.** Programs differ by region (London, a San Francisco residency for Europeans, U.S. funding and fellowships, Bangalore). EF asks you to apply to one program, in one hub city, at a time. It points people with 7+ years of experience who have founded or helped start a startup to a separate experienced founders program.
+
+**Prior funding.** EF says this is unusual, but you can still apply if you have taken a small investment or a grant. Explain your situation in the application.
+
+### Common mistakes for EF applications
+
+These follow from what EF publishes:
+
+- Leading with the idea or a business plan. EF says it does not assess individuals on their ideas.
+- Waiting to find a cofounder before applying. EF does not require one.
+- Listing credentials instead of outcomes. In "Don't be a badge collector," EF cofounder Matt Clifford warns against collecting one more credential (a top university, another degree, a blue-chip job), and writes that he is "always suspicious of startups that tout themselves as 'award winning'." The post is about career choices, but the lesson carries: show what you built or achieved, not the badges around it.
+- Applying to more than one program or city at once.
+- Applying without being able to commit full-time and relocate.
+- Waiting for feedback. EF's U.S. page says it cannot give individual feedback, and that not hearing back means it is passing for now.
+
+---
+
+## Antler
+
+Written November 2026, from Antler's own website and its UK interview guide. Antler runs residencies in many countries, and the rules differ by location (for example, on solo founders, work rights, and investment size). Most of the detail below comes from the UK pages, with the US page where noted. Read the location page for the city the founder is applying to, and treat every figure as Antler's own claim at the time of writing.
+
+### How Antler reads applications
+
+Antler says it is an inception-stage VC, not an accelerator or incubator. Its US FAQ says it backs founders "often before they've found their co-founder or developed their idea." Its UK FAQ says "often pre-team, pre-product, or pre-revenue." As with EF, the application is mostly about the person.
+
+The UK guide says the online application takes 5 to 10 minutes. It asks you to:
+
+1. Choose one location. You can only apply to one at a time.
+2. Confirm your right to work in the UK.
+3. Tell them about something you have built, achieved, or pushed through. Show your impact: what you contributed, how you operated, and the outcomes you drove.
+4. If you already have an idea, tell them your unfair advantage or insight: what depth or experience would let you outperform others in that area.
+5. Optionally, add a pitch deck or a one-minute video about you, your team, and your idea.
+
+So the achievement question is where you show who you are. Pick one story with a clear result and your own part in it. If there is an idea, the answer is about your edge in that area, not the size of the market.
+
+The UK guide says you hear back within 3 to 5 days. The steps after that are a first interview, a reference check, a partner interview, and an outcome. The guide says thousands apply each cycle and around 80 join each residency. The UK page says fewer than 1% make it in and that places go fast. The guide says selection usually takes 2 to 3 weeks, so apply early.
+
+### What Antler specifically weighs
+
+**Founder DNA.** The UK first interview (20 minutes, or 45 minutes for a team with all cofounders present) looks at what Antler calls Founder DNA:
+
+- Relentlessness: bouncing back from setbacks and staying focused on results.
+- Magnetism: attracting and inspiring talent, investors, and customers.
+- Velocity: moving fast, acting with urgency, and hitting milestones.
+- First principles thinking: breaking complex problems into their basic truths and building from there.
+
+**Personal impact.** Your track record of drawing investors, customers, and talented people to your cause, and the impact of the projects you have led.
+
+**How you think about problems.** Antler UK says it does not judge founders on the specific problem they want to solve. It looks at how they think about what makes a problem worth solving: why it matters, how they judge its potential impact, and what drives them to solve it.
+
+**A spike.** The UK FAQ asks for a "spike": you are exceptional at something, and it is visible. Its examples are commercial instinct, storytelling, technical depth, leadership, or attracting top talent. The US page asks for "outlier achievers with edge, velocity, and deep domain strength." Name the founder's spike and prove it with one fact.
+
+**Commitment.** The UK FAQ says you are all in: "No freelancing. No safety nets." Founders usually spend 4 to 6 days a week in person with their cohort. The UK page also says: "If you're here to explore, don't apply." The US page says at least one founder must be full-time in the residency.
+
+**Trajectory over stage.** The UK FAQ says "Stage matters less than trajectory" and "we're not selecting on where you start." Some founders join with a product live and a team. Others join solo and still shape the idea. If you have already raised a meaningful pre-seed round, Antler UK says you are likely too far along.
+
+**Team status (check the location).** Antler UK says it does not invest in solo founders, but most people join solo and form a team during the residency. Complete teams typically join for 6 weeks; solo founders and incomplete teams join for up to 8 weeks. The US page says solo founders are welcome. State which you are, and check the location page.
+
+**References.** By the second interview, Antler UK asks for two professional referees who have worked closely with you: former cofounders, investors or advisors who backed you, or senior leaders from recent roles. Friends, peers, and direct reports are not suitable.
+
+### What the interview rewards
+
+The UK partner interview starts with a 2 to 3 minute pitch of a problem space or industry you want to tackle: why the problem is worth solving and your view of the market. Then the partner tests:
+
+1. Critical thinking and first principles.
+2. Your understanding of the problem space.
+3. How you would approach building a solution.
+4. Your vision for scaling the idea.
+5. How you adapt to feedback and pivot.
+
+Antler says: "It's not about having a polished pitch; it's about how you think, decide, and operate." Prepare the reasoning, not a script. Read Antler's founder agreement and investment terms before the call.
+
+### Common mistakes for Antler applications
+
+These follow from what Antler publishes:
+
+- Describing a job title instead of impact. The form asks what you contributed, how you operated, and what changed.
+- Pitching an idea without saying why you would win in that area.
+- Applying to explore, or while keeping a side job or freelance work.
+- Choosing friends or peers as referees.
+- Over-polishing the partner pitch instead of preparing to think out loud.
+- Applying late in the window. Selection takes weeks, and places go fast.
+- Assuming one location's rules apply everywhere (solo founders, work rights, check size).
 
 ---
 

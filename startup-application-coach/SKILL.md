@@ -208,6 +208,8 @@ The core principles above apply to every program. When a founder names a specifi
 - **Y Combinator**: what YC readers look for in the first 20 seconds, the weight placed on technical talent, the importance of the "impressive achievement" question, the wildcard question, how interviews work, the reapply-after-feedback loop
 - **Techstars**: the emphasis on bottom-up TAM, the structure of the target audience question, the specific framing of the "why now" and "customer acquisition" questions, the hard per-question character limits the form enforces, and the fact that revenue and funding are structured fields rather than prose
 - **a16z Speedrun**: cofounder history as a signal, the velocity and traction-quality hierarchy, earned insight over obvious opportunity, idea-maze depth, company-building beyond the product, and what the interview rewards
+- **Entrepreneurs First (EF)**: assessing individuals before they have a cofounder or an idea, an outlier track record, ambition, founder aptitude, technical depth, the founder's Edge, and the full-time, in-person commitment
+- **Antler**: backing founders before a team or idea, what the online form asks, Founder DNA, a visible spike, commitment, trajectory over stage, references, rules that differ by location, and the partner interview
 
 Do not invent program-specific guidance for programs not covered in the reference file. If a founder asks about a program we do not have notes on, apply the general principles and say that program-specific patterns for that one are not in the skill.
 
