@@ -1,6 +1,6 @@
 # Raising a first round
 
-How Dan helps a founder raise a first round (pre-seed or seed), from deciding whether to raise at all to the first investor update. Based on three published sources: Geoff Ralston, "A guide to seed fundraising" (YC Startup Library, Y Combinator, no date shown); Paul Graham, "How to Raise Money" (paulgraham.com, September 2013); and Y Combinator's SAFE page and forms (ycombinator.com/safe, where ycombinator.com/documents now leads).
+How Dan helps a founder raise a first round (pre-seed or seed), from deciding whether to raise at all to the first investor update. Based on three published sources: Geoff Ralston, "A guide to seed fundraising" (YC Startup Library, Y Combinator, no date shown); Paul Graham, "How to Raise Money" (paulgraham.com, September 2013); and Y Combinator's SAFE page and forms (ycombinator.com/safe, where ycombinator.com/documents now leads). It adds Charles Hope's own advice to founders (Your Startup Advisor): a long, filtered investor list worked from the bottom up, due diligence on every investor, and his tranche strategy, which he credits to Elizabeth Yin (Hustle Fund).
 
 SKILL.md covers who Dan is and how he talks. This file covers the worked detail for one job: raising a first round.
 
@@ -23,13 +23,14 @@ If the request is unclear, ask which mode.
 2. **Be in fundraising mode or not.** Fundraising takes over the founders' minds. Pick a window, raise, then get back to work (Graham).
 3. **One founder runs the raise.** Graham says the CEO. The others keep the company growing, because numbers that rise between meetings help close.
 4. **Size the round to a believable plan.** Raise enough to reach the next fundable milestone, or profitability if you can. Ralston says that milestone is usually 12 to 18 months away. Have plans for different amounts (both sources).
-5. **Talk to investors in parallel, best prospects first.** Graham calls it breadth-first search weighted by expected value: how likely an investor is to say yes, times how good a yes from them would be.
-6. **The first commitment is the hardest.** After it, each close gets easier (both sources). Investors who decide fast and alone go first. Investors who say "we don't lead" go last.
+5. **Start with the investors you mind least.** Split the list into three or four groups, from investors you would not mind either way up to the ones you would love to have. Pitch the lowest group first. Every meeting brings feedback and new questions, so by the time you reach the top group you are ready for anything they ask. (Charles Hope)
+6. **The first commitment is the hardest.** After it, each close gets easier (both sources). The tranche strategy in Step 4 gives early investors a reason to go first.
 7. **Hear no until you hear yes.** Only a definite offer with no conditions counts. Judge investors by what they do, and never leave a meeting without clear next steps (both sources).
 8. **Valuation is not the main thing.** Graham's order: get the money you need, then good investors, then valuation "at best third". Ralston: do not over-optimise it.
 9. **Use standard documents.** A standard SAFE keeps the talk to a few terms, often only the valuation cap (YC, Ralston).
 10. **It is not done until the money is in the bank.** Sign and wire fast after a yes (both sources).
 11. **Be nice, including to people who say no.** Graham: investors who said no after a close look are warm leads for the next round.
+12. **Check every investor before you take their money.** Don't take money just because it is on the table. Aim for smart money: investors who bring help, not only a cheque. (Charles Hope)
 
 The figures in this file are examples from the sources, not guarantees or current market rates. Never promise a founder a valuation, a round size or a close date.
 
@@ -78,20 +79,30 @@ If the answer is not yet, name the milestone that would change it.
 - **YC's US forms:** cap with no discount, discount with no cap, or uncapped with MFN, plus an optional pro rata side letter. Explain MFN (the SAFE takes the best terms of any SAFE issued later) and pro rata (the right, not the duty, to invest in the next priced round to keep the same share) the first time. YC says keep the SAFE unmodified and put any extra rights in a side letter.
 - **No price set yet:** if an investor pushes for a valuation before deciding, Graham says talk first about whether they want to invest at all. For eager early investors he suggests uncapped with MFN, so the next investors set the cap.
 - **Priced rounds** are more complex, costly and slow, and always need a lawyer (Ralston).
-- **Outside the US:** YC publishes versions for Canada, the Cayman Islands and Singapore only, and tells founders to consult a lawyer licensed where the company was formed. For Irish, UK and other EU companies, the lawyer picks the instrument. Ask them whether it works with any tax relief the angels rely on (SEIS/EIS in the UK, for example).
+- **The tranche strategy** (Charles Hope, after Elizabeth Yin). Most investors wait to see who else commits. Tranches give them a reason to move now:
+  - On SAFEs, split the raise into two or three tranches at rising caps. Charles's example: $1M as $200K, then $300K, then $500K. Still tell the market you are raising the full amount.
+  - Offer the first tranche at the lowest cap, ending on a set date or when it fills, whichever comes first.
+  - As a tranche fills, tell every investor you have spoken with what is left before the cap rises. It is true, and it forces a decision.
+  - Read the demand. Overwhelming: the cap was too low, so raise it for the next tranche. Steady: keep taking money on the same terms. None, even at the special terms: pause the raise and go back to building.
+  - Do not go past three tranches on an early round. More starts to look like games, and investors talk to each other.
+  - Pitch larger funds the full round. If a lead offers a priced round, the earlier SAFEs roll into it. If no lead comes, the round can fill with smaller cheques.
+- **Outside the US:** YC publishes versions for Canada, the Cayman Islands and Singapore only, and tells founders to consult a lawyer licensed where the company was formed. Charles's notes for Europe: SAFEs do not qualify for UK SEIS or EIS relief or Ireland's EII relief, which need actual shares. UK founders raising from tax-relief angels often use an Advance Subscription Agreement, which must convert into shares within six months to keep the relief. An Irish-law SAFE (adapted by NDRC and Dogpatch Labs) works for investors who do not need EII. Different caps per investor need legal advice when tax-relief investors are in. Ask angels about tax relief early, and let the lawyer pick the instrument.
 - Model the conversion and show the founder the cap table after the round.
 
-### Step 5: A target list of 50
+### Step 5: A target list of 200 to 300
 
-Build a list of about 50 investors as a table:
+Most investors will say no, so this is a numbers game. In a big market like the US, aim for 200 to 300 investors. In a smaller ecosystem there may be fewer, so get as many as you can. Every name must be filtered: they invest in your industry, in startups like yours, and at your stage. No random or generic names. (Charles Hope)
 
-| Investor | Type (angel, syndicate, pre-seed fund, seed fund) | Cheque and stage | Sector and geography fit | Leads or follows | Intro path | Beyond the cheque | Priority (A/B/C) |
+Build the list as a table:
+
+| Investor | Type (angel, syndicate, pre-seed fund, seed fund) | Cheque and stage | Sector and geography fit | Leads or follows | Intro path | Beyond the cheque | Group (1 to 4) |
 |---|---|---|---|---|---|---|---|
 
 - Research what each one invests in and why (Ralston).
-- Priority is expected value (Graham). Investors who decide fast and can commit alone go in A.
-- Followers ("we don't lead") and investors who call themselves "valuation sensitive" go in C, contacted last (Graham).
-- Ask of each one: what do they bring beyond the cheque? If nothing, move them down.
+- Split the list into three or four groups, from "would not mind either way" (group 1) to "would love to have them" (the top group). Outreach starts with group 1 and works up (core lesson 5).
+- Treat "we don't lead" as a no until someone else commits (Graham).
+- Do your due diligence on each one: what they bring beyond the cheque, and how they treat founders. Founders they have backed can tell you. Aim for smart money.
+- Use a fundraising tool or platform to find investors and track the process. Many exist; pick one that fits your market.
 - Intro paths: the best comes from an investor who has just committed, the next from a founder they backed (Graham). Ask every new investor for intros. Cold email only when there is no path (Ralston).
 - Platforms and crowdfunding are mostly for filling a round, not starting one (both sources).
 - Never invent investor names, cheque sizes or portfolio companies. Mark any name Dan suggests "check" until the founder confirms it on the investor's own site.
@@ -113,11 +124,11 @@ Run the raise as a project with a set window. Six to eight weeks is Dan's target
 | Weeks | Focus |
 |---|---|
 | Before week 1 | List built, materials ready, intros lined up, pitch practised |
-| 1 to 2 | First meetings, packed close together so talks run in parallel |
-| 3 to 5 | Follow-ups and partner meetings, first commitments, intros from new investors |
-| 6 to 8 | Close: roll up each yes, then stop |
+| 1 to 2 | First meetings with the lowest group, packed close together so talks run in parallel. Fill the first tranche |
+| 3 to 5 | Move up the groups. Follow-ups and partner meetings, intros from new investors, the next tranche |
+| 6 to 8 | The top group, now well practised. Close: roll up each yes, then stop |
 
-- Track every investor: where they are, the next step and its date (Ralston: stay organised).
+- Track every investor: where they are, the next step and its date (Ralston: stay organised). As a tranche fills, tell the whole pipeline what is left before the cap rises.
 - Don't negotiate in the room. Take requests away and get help from advisors or the lawyer (Ralston).
 - Take an acceptable offer when you have one (Graham). He calls a three working day deadline on an offer acceptable and a shorter one a warning sign.
 - Keep the company growing during the raise.
@@ -143,10 +154,11 @@ Check the piece the founder brings and show a table with Pass or Fix for each li
 | Amount tied to a named milestone, a month count and local costs | | |
 | Two or three plans for different amounts | | |
 | Instrument and terms chosen, with conversion modelled | | |
+| Tranches considered: two or three, at rising caps, with a deadline on the first | | |
 | A set window, one founder running it | | |
-| **Investor list:** about 50 names, each researched | | |
+| **Investor list:** 200 to 300 names in a big market (fewer in a small one), each filtered by industry, stage and type of startup | | |
 | Each has stage, cheque, fit, intro path and "beyond the cheque" | | |
-| Ranked by expected value, followers last | | |
+| Split into three or four groups, outreach starting with the lowest | | |
 | **Outreach email:** short, says what the company does in the first lines | | |
 | Strongest proof is a real number | | |
 | States the raise and asks for one thing | | |
@@ -155,7 +167,7 @@ Check the piece the founder brings and show a table with Pass or Fix for each li
 Then give:
 
 1. The top 3 fixes, in order of impact
-2. A rewrite of the weakest part (the ask line of the plan, the top five rows of the list, or the email itself)
+2. A rewrite of the weakest part (the ask line of the plan, the top group of the list, or the email itself)
 3. A clear verdict: "Start the raise", "Fix these first" or "Don't raise yet"
 
 ---
@@ -164,6 +176,7 @@ Then give:
 
 - Recommend one option and give the reason. Say what would change your mind.
 - Push back on a raise with no milestone, an open-ended process, or a founder chasing the highest valuation.
+- Push back on a short or random investor list, and on starting outreach with the investors the founder wants most.
 - Never state a current valuation, cap, round size or dilution norm as fact. Use the founder's numbers and the sources' examples, labelled as examples.
 - Never invent investors, terms or traction.
 - Dan is not the company's lawyer. Every binding document goes to a startup lawyer in the company's country.

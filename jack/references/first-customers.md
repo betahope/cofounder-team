@@ -1,6 +1,6 @@
 # First ten paying customers
 
-How Jack helps a founder get from zero to ten customers who pay. Works for B2B and for consumer or small-business products. Based on three published sources: Paul Graham, "Do Things That Don't Scale" (paulgraham.com, July 2013); Max Kolysh (YC Visiting Partner), "How to Get Your First 10 Customers" (YC Startup School, 2026); and Tom Blomfield, "The Sales Playbook For Founders" (YC Startup School).
+How Jack helps a founder get from zero to ten customers who pay. Works for B2B and for consumer or small-business products. Based on three published sources: Paul Graham, "Do Things That Don't Scale" (paulgraham.com, July 2013); Max Kolysh (YC Visiting Partner), "How to Get Your First 10 Customers" (YC Startup School, 2026); and Tom Blomfield, "The Sales Playbook For Founders" (YC Startup School). It adds Charles Hope's own advice to founders (Your Startup Advisor) on customer discovery, plain-text outreach, and discounts.
 
 SKILL.md covers who Jack is and how he talks. This file covers the worked detail for one job: the first ten paying customers.
 
@@ -18,19 +18,22 @@ If the request is unclear, ask which mode.
 ## The core lessons (apply in both modes)
 
 1. **The founder makes it take off.** Users rarely arrive on their own. At least one founder has to spend a lot of time on sales. You go out and get them.
-2. **The first ten come from the founder, not a tool.** Customers 1 to 3 almost always come from the founder's own network. Customers 4 to 10 come from things that don't scale. Prospecting tools start to matter only after 10 to 20 good customers.
-3. **Go where the buyer spends their day.** Many buyers do not live in their inbox (a truck dispatcher, a property manager, a school administrator). If the founder cannot say how the buyer spends their day, they have not spent enough time with real customers.
-4. **Start narrow.** Pick one small group that will feel the product is for them, like Facebook at Harvard. For B2B, other startups are often the best early adopters.
-5. **People buy the founder first.** An early buyer is betting on a new company. They need to trust the person building it. That is why warm intros and showing up in person work.
-6. **Show up in person when you can.** Small industry conferences and dinners for six to ten target buyers convert better than large events or cold email.
-7. **Short, human outreach with one clear ask.** Under 75 words. One call to action. Read it out loud to a friend, and rewrite anything you would not say to a real person.
-8. **Give before you ask.** A short, specific piece of work for that prospect (a scan, an audit note, two concrete suggestions) earns the meeting.
-9. **Follow up.** Three or four times over a couple of weeks.
-10. **Talk about money early.** Founders fear the price question. Ask it anyway: "If I solve this and hit these numbers, what would that be worth to you?" Drop buyers who are not ready, able or willing to pay.
-11. **Paid beats free.** Long free design partnerships and free pilots drift, because the customer has nothing at stake. A short paid pilot with agreed success measures gets attention.
-12. **Close on the spot when you can.** The Collison brothers did not send a link to people who agreed to try Stripe. They set them up then and there.
-13. **Skip the big launch and the big partner.** Neither reliably gets growth started. A launch only needs to bring an initial core of users.
-14. **Delight the ones you get.** How happy the first users are matters more than how many there are. Signing is not the end: onboard each customer and make sure they get value.
+2. **Your customer discovery is your first customer list.** Done well, discovery confirms the problem is painful. The people who confirmed it are waiting for someone to solve it. Go back to them first. (Charles Hope)
+3. **The first ten come from the founder, not a tool.** Customers 1 to 3 almost always come from the founder's own network. Customers 4 to 10 come from things that don't scale. Prospecting tools start to matter only after 10 to 20 good customers.
+4. **Go where the buyer spends their day.** Many buyers do not live in their inbox (a truck dispatcher, a property manager, a school administrator). If the founder cannot say how the buyer spends their day, they have not spent enough time with real customers.
+5. **Start narrow.** Pick one small group that will feel the product is for them, like Facebook at Harvard. For B2B, other startups are often the best early adopters.
+6. **People buy the founder first.** An early buyer is betting on a new company. They need to trust the person building it. That is why warm intros and showing up in person work.
+7. **Show up in person when you can.** Small industry conferences and dinners for six to ten target buyers convert better than large events or cold email.
+8. **Short, human outreach with one clear ask.** Under 75 words. One call to action. Read it out loud to a friend, and rewrite anything you would not say to a real person.
+9. **Cold messages go out in plain text.** No images, attachments, links, or heavy formatting, in the first message or in any follow-up, until the person replies. A short, plain, personal message from someone they don't know is less likely to be marked as spam. Once they reply, their email system treats you as a known sender, and links and attachments are fine. Less is more. (Charles Hope)
+10. **Give before you ask.** A short, specific piece of work for that prospect (a scan, an audit note, two concrete suggestions) earns the meeting.
+11. **Follow up.** Three or four times over a couple of weeks.
+12. **Talk about money early.** Founders fear the price question. Ask it anyway: "If I solve this and hit these numbers, what would that be worth to you?" Drop buyers who are not ready, able or willing to pay.
+13. **Paid beats free.** Long free design partnerships and free pilots drift, because the customer has nothing at stake. A short paid pilot with agreed success measures gets attention.
+14. **Say yes to a discount, and ask for something back.** "Can we get 50% off?" "Yes, if we sign a yearly contract." Never give a discount for nothing. (Charles Hope)
+15. **Close on the spot when you can.** The Collison brothers did not send a link to people who agreed to try Stripe. They set them up then and there.
+16. **Skip the big launch and the big partner.** Neither reliably gets growth started. A launch only needs to bring an initial core of users.
+17. **Delight the ones you get.** How happy the first users are matters more than how many there are. Signing is not the end: onboard each customer and make sure they get value.
 
 These are other founders' results, not guarantees. Never promise a number of customers or a close rate.
 
@@ -43,6 +46,7 @@ These are other founders' results, not guarantees. Never promise a number of cus
 Start from the company basics you already have (the company memory or company brief). Ask only for what you still don't know:
 
 - The product in one line, what works today, and who has used it or asked for it
+- Who the founder interviewed during customer discovery, and who said the problem hurts
 - The founder's own network in this market (former colleagues, classmates, friends in the industry)
 - Paying customers today, any price already set, and any cost-to-serve numbers from Sam
 
@@ -58,11 +62,12 @@ If the founder cannot answer most of these, stop and fix that first. Learning in
 
 Real names, not companies or job titles. Fill the list in this order:
 
-1. The founder's own network: former colleagues, classmates, friends in the industry.
-2. Second-degree contacts: who the founder's contacts know (LinkedIn is a common place to look).
-3. Places where the buyer complains about the problem in public: Reddit threads, Facebook groups, Discord, industry forums. Each commenter is a name.
-4. Attendee lists from small events the buyer goes to.
-5. Cold names that match the customer from Step 2, only once the warm sources run dry.
+1. People from customer discovery who confirmed the problem is painful. Start here. If the founder has not done discovery yet, suggest bringing Maya in first.
+2. The founder's own network: former colleagues, classmates, friends in the industry.
+3. Second-degree contacts: who the founder's contacts know (LinkedIn is a common place to look).
+4. Places where the buyer complains about the problem in public: Reddit threads, Facebook groups, Discord, industry forums. Each commenter is a name.
+5. Attendee lists from small events the buyer goes to.
+6. Cold names that match the customer from Step 2, only once the warm sources run dry.
 
 Mark each name with its source. Do not let the founder spend a week setting up tools while warm names sit unmessaged.
 
@@ -70,8 +75,9 @@ Mark each name with its source. Do not let the founder spend a week setting up t
 
 Write one version for warm contacts and one for cold. For each:
 
-- Under 75 words, in the founder's own voice.
-- One clear call to action (a reply, a 15-minute call, a short demo).
+- Under 75 words, in the founder's own voice, personal to that person, never spammy.
+- Plain text: no images, attachments, links, or heavy formatting. Follow-ups stay plain text until the person replies. After a positive reply, send the link or the deck.
+- One simple call to action, at the end (a reply, a 15-minute call, a short demo).
 - Something given first where possible, specific to that prospect.
 - An honest frame. Asking for advice is fine only if the founder wants the advice; never disguise a sales call.
 
@@ -100,6 +106,8 @@ Recommend one of these in order of preference and explain why in one line:
 | Free pilot | Only for the first one or two customers, and only with an end date and a price agreed for afterwards |
 
 For a B2B buyer, ask the champion what they can approve on their own (a corporate card limit, for example). A smaller amount that skips a long approval process is often worth it. Price follows the value agreed on the call; check Sam's cost-to-serve numbers so the price covers them.
+
+If the buyer asks for a discount, say yes, and ask for something in return. The usual trade is a longer commitment: "Yes to 50% off, with a yearly contract." Paying up front works too. Never give a discount for nothing, and check the discounted price still covers Sam's cost-to-serve numbers.
 
 ### Step 7: Track in a simple table
 
@@ -130,7 +138,8 @@ Check only the table that fits, and show a Pass or Fix for each line:
 | Outreach message | Pass / Fix | Note |
 |---|---|---|
 | Under 75 words | | |
-| One clear call to action | | |
+| Plain text: no images, attachments, or links before a reply | | |
+| Ends with one simple call to action | | |
 | Sounds like the founder said it out loud | | |
 | Specific to this person, with something given first | | |
 | Honest about why the founder is writing | | |
@@ -150,6 +159,7 @@ Check only the table that fits, and show a Pass or Fix for each line:
 | Every open row has a next step and a date | | |
 | Price raised before any pilot starts | | |
 | No free pilot without an end date | | |
+| Every discount traded for something (a longer contract, payment up front) | | |
 | Lost deals have a reason | | |
 
 Then give:
@@ -165,6 +175,7 @@ Then give:
 - Recommend one option clearly and give the reason. Don't hand over a list of choices.
 - Push back when the founder wants to build more before selling, buy tools first, or plan a big launch.
 - Push back on long free pilots and design partnerships with no end date.
+- Push back on a discount given for nothing.
 - Keep sales calls and learning interviews apart. Learning interviews go to Maya.
 - If the founder will report these customers to investors, count those still in an opt-out period separately, and suggest bringing Dan in.
 - Treat the published numbers as examples, not rules.

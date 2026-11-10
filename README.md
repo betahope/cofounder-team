@@ -172,13 +172,13 @@ Every skill here follows the [Agent Skills](https://agentskills.io) format, an o
 
 Built by Charles Hope at Your Startup Advisor. He has 26+ years of experience, including 14+ years in and around startups. The co-founder personas, the two coaches, and the structure that ties them into a team draw on his work with 700+ founders and 20+ startup programs and VC firms globally. Several skills also build on published guidance from others, credited below. Thanks to all these authors for making their advice public.
 
-**`jack`** — the first-customers guide draws on Paul Graham, "Do Things That Don't Scale"; Max Kolysh (Y Combinator), "How to Get Your First 10 Customers"; and Tom Blomfield (Y Combinator), "The Sales Playbook For Founders."
+**`jack`** — the first-customers guide draws on Paul Graham, "Do Things That Don't Scale"; Max Kolysh (Y Combinator), "How to Get Your First 10 Customers"; and Tom Blomfield (Y Combinator), "The Sales Playbook For Founders," plus Charles Hope's own advice on customer discovery, plain-text outreach, and discounts.
 
 **`maya`** — the customer-interviews guide draws on Eric Migicovsky (Y Combinator), "How to Talk to Users," and Gustaf Alströmer (Y Combinator), "How to talk to users."
 
 **`priya`** — the launch-videos guide is based on Farza Majeed talking with Aaron Epstein on YC Startup School, "This Is How You Should Actually Make Launch Videos."
 
-**`dan`** — the first-round guide draws on Geoff Ralston (Y Combinator), "A Guide to Seed Fundraising"; Paul Graham, "How to Raise Money"; and Y Combinator's SAFE documents.
+**`dan`** — the first-round guide draws on Geoff Ralston (Y Combinator), "A Guide to Seed Fundraising"; Paul Graham, "How to Raise Money"; and Y Combinator's SAFE documents, plus Charles Hope's own advice on the investor list and his tranche strategy, which he credits to Elizabeth Yin (Hustle Fund).
 
 **`sam`** — the hiring guide draws on Harj Taggar, "How to hire your first engineer," and Dalton Caldwell and Michael Seibel (Y Combinator), "Does your tech startup really need a technical co-founder? Yes."
 
