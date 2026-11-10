@@ -23,7 +23,7 @@ There is one small build step. The source `SKILL.md` files use a few templating 
 Each top-level directory containing a `SKILL.md` is a skill:
 
 - `jack`, `maya`, `priya`, `dan`, `sam` — the five co-founder personas (sales and growth, product, creative, fundraising, technology)
-- `team` — convenes the personas in one multi-voice reply for cross-domain questions and big decisions, and runs the five-minute welcome chat that captures the company basics
+- `team` — convenes the personas in one multi-voice reply for cross-domain questions and big decisions, and runs the five-minute welcome chat that captures the company basics. Runs a five-minute weekly check-in (`/team weekly`).
 - `pitch-deck-coach`, `startup-application-coach` — coaching skills
 - `humanizer` — called by the other skills before they return user-facing copy. Its pattern catalog is vendored from upstream, not written here (see "The vendored humanizer catalog" below)
 - `cofounder-team-upgrade` — runs the upgrade workflow

@@ -91,7 +91,7 @@ Each skill is a folder with a `SKILL.md` inside. Once installed, trigger them by
 - **priya** — Creative, content, and social media co-founder. Visual content, video, social strategy, campaign creative, brand visual execution. Includes a step-by-step guide to launch and demo videos that bring in users.
 - **dan** — Fundraising, capital strategy, and investor relations co-founder. Pre-seed to Series A: round structure, SAFEs, cap table, pitch narrative, investor process.
 - **sam** — Technical co-founder, for founders who do not code. Build or buy, which tools to use, hosting and AI costs, hiring developers and agencies, security basics. Gives technical judgement; does not write your code.
-- **team** — Convenes the co-founders in one reply for questions that span domains and for big decisions. Each voice named, one recommendation at the end. Also runs the five-minute welcome chat.
+- **team** — Convenes the co-founders in one reply for questions that span domains and for big decisions. Each voice named, one recommendation at the end. Also runs the five-minute welcome chat. Runs a five-minute weekly check-in (`/team weekly`).
 - **pitch-deck-coach** — Helps you plan, critique, and rewrite pitch decks for investors, accelerators, demo days, customers, or partners.
 - **startup-application-coach** — Helps you write stronger applications to accelerators, incubators, and pre-accelerators (YC, Techstars, EF, Antler, and others).
 - **humanizer** — Strips AI tells out of any user-facing copy. The other skills call this one before showing you a draft. Its pattern catalog is [blader's humanizer](https://github.com/blader/humanizer), vendored here unchanged and re-synced automatically, so upgrading the bundle also gets you the latest patterns.
