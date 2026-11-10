@@ -8,11 +8,11 @@ They work as a team, not as separate tools you switch between. More on that belo
 
 The personas and coaches respond in whichever language you write to them in, and generate any artifacts (pitch decks, application answers, content drafts) in that language by default. You can override per-artifact ("draft this in English"). The `humanizer` runs in full on English drafts; on other languages it does a lighter structural-only pass, since its wording patterns are English-specific.
 
-## How the team works together
+## Quick start
 
-These five are a team, not five separate advisors. Each co-founder knows the others by name and domain, knows where its own expertise ends, and pulls in whoever is needed rather than guessing outside its lane. Ask Jack something that turns on product design and he brings Maya in. Raise a fundraising angle mid-conversation and Dan steps up. Ask whether to build or buy and Sam takes it. When someone hits the edge of what they know, they say so and point you to the right co-founder instead of bluffing.
-
-This is built into the skills, not bolted on. Every persona carries a Boundaries section that names the others and spells out when to hand off, so the team stays in its lanes without you having to direct traffic. And when a question deserves more than one voice, the `team` skill convenes them: say "ask the team" (or `/team` in Claude Code) and the right co-founders answer together in a single reply, each voice attributed by name, ending in one clear recommendation. On Claude.ai, the project instructions template adds the same behavior at the project level.
+- **Claude.ai (no terminal):** download the zips, upload them, say "welcome chat". [Steps here](#install-in-claudeai).
+- **ChatGPT (no terminal):** the same zips work. [Steps here](#install-in-chatgpt).
+- **Claude Code:** one command. [Steps here](#install-in-claude-code).
 
 ## See it in action
 
@@ -31,20 +31,6 @@ A real `/team` reply, about a made-up company. It is unedited, except that a clo
 ## Install
 
 Pick the path that matches where you work.
-
-### Install in Claude Code
-
-Works on macOS, Linux, and Windows. Open a terminal and run:
-
-```
-git clone --depth 1 https://github.com/betahope/cofounder-team.git ~/.cofounder-team && cd ~/.cofounder-team && bash ./setup
-```
-
-That command does three things: it clones this repo to `~/.cofounder-team`, then builds the skills and links each one into `~/.claude/skills/` (where Claude Code looks for personal skills), then prints a summary. The build is plain bash and needs nothing extra installed.
-
-After it finishes, **start a new Claude Code session** so the skills load. Then, in your company's project folder, type `/team kickoff` for a five-minute welcome chat. The team learns the basics about your company once and remembers them in every session after.
-
-**Windows users:** run the command from Git Bash (or MSYS / Cygwin). WSL is also fine and behaves like Linux. The `setup` script auto-detects Windows-style shells and copies the skill folders instead of symlinking them, since symlinks are often blocked on Windows. The practical implication: re-run `bash ./setup` after every upgrade, or use `/cofounder-team-upgrade`, which handles this for you. If you would rather skip the shell entirely, the [Install in Claude.ai](#install-in-claudeai) path below needs no terminal at all.
 
 ### Install in Claude.ai
 
@@ -72,9 +58,29 @@ ChatGPT supports the same Agent Skills standard, so the release zips work there 
 
 To upgrade later, download the newer zips and upload them again, the same as on Claude.ai. The `cofounder-team-upgrade` skill is Claude Code only and is not part of the zips.
 
+### Install in Claude Code
+
+Works on macOS, Linux, and Windows. Open a terminal and run:
+
+```
+git clone --depth 1 https://github.com/betahope/cofounder-team.git ~/.cofounder-team && cd ~/.cofounder-team && bash ./setup
+```
+
+That command does three things: it clones this repo to `~/.cofounder-team`, then builds the skills and links each one into `~/.claude/skills/` (where Claude Code looks for personal skills), then prints a summary. The build is plain bash and needs nothing extra installed.
+
+After it finishes, **start a new Claude Code session** so the skills load. Then, in your company's project folder, type `/team kickoff` for a five-minute welcome chat. The team learns the basics about your company once and remembers them in every session after.
+
+**Windows users:** run the command from Git Bash (or MSYS / Cygwin). WSL is also fine and behaves like Linux. The `setup` script auto-detects Windows-style shells and copies the skill folders instead of symlinking them, since symlinks are often blocked on Windows. The practical implication: re-run `bash ./setup` after every upgrade, or use `/cofounder-team-upgrade`, which handles this for you. If you would rather skip the shell entirely, the [Install in Claude.ai](#install-in-claudeai) path above needs no terminal at all.
+
 ### Install in other tools
 
 Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, and dozens of other tools also support Agent Skills. Download the zips from the [latest release](https://github.com/betahope/cofounder-team/releases/latest), unzip them, and put each skill folder where your tool keeps skills (its docs will say where, and [agentskills.io](https://agentskills.io) links each tool's setup guide). We build and test on Claude and ChatGPT, so in other tools treat the skills as expected to work rather than guaranteed. If one misbehaves, [open an issue](https://github.com/betahope/cofounder-team/issues).
+
+## How the team works together
+
+These five are a team, not five separate advisors. Each co-founder knows the others by name and domain, knows where its own expertise ends, and pulls in whoever is needed rather than guessing outside its lane. Ask Jack something that turns on product design and he brings Maya in. Raise a fundraising angle mid-conversation and Dan steps up. Ask whether to build or buy and Sam takes it. When someone hits the edge of what they know, they say so and point you to the right co-founder instead of bluffing.
+
+This is built into the skills, not bolted on. Every persona carries a Boundaries section that names the others and spells out when to hand off, so the team stays in its lanes without you having to direct traffic. And when a question deserves more than one voice, the `team` skill convenes them: say "ask the team" (or `/team` in Claude Code) and the right co-founders answer together in a single reply, each voice attributed by name, ending in one clear recommendation. On Claude.ai, the project instructions template adds the same behavior at the project level.
 
 ## The skills
 
@@ -90,10 +96,6 @@ Each skill is a folder with a `SKILL.md` inside. Once installed, trigger them by
 - **startup-application-coach** — Helps you write stronger applications to accelerators, incubators, and pre-accelerators (YC, Techstars, EF, Antler, and others).
 - **humanizer** — Strips AI tells out of any user-facing copy. The other skills call this one before showing you a draft. Its pattern catalog is [blader's humanizer](https://github.com/blader/humanizer), vendored here unchanged and re-synced automatically, so upgrading the bundle also gets you the latest patterns.
 - **cofounder-team-upgrade** — The upgrade skill itself. Runs the update workflow when you ask.
-
-## Built on an open standard
-
-Every skill here follows the [Agent Skills](https://agentskills.io) format, an open standard started by Anthropic and now supported by dozens of AI tools. That is why the same release zips install cleanly in Claude, ChatGPT, and other tools, with nothing Claude-specific inside. See the [Install](#install) section above for the path that matches your tool.
 
 ## Upgrade
 
@@ -137,6 +139,14 @@ rm -rf ~/.cofounder-team
 
 On Claude.ai, remove skills individually under **Customize → Skills** in the left sidebar.
 
+## Feedback
+
+Tell us what works and what does not: email [cofounder@yourstartupadvisor.com](mailto:cofounder@yourstartupadvisor.com). Say "I want to give feedback" to any co-founder or coach and they will draft the email for you. Bugs and install problems can also go in a [GitHub issue](https://github.com/betahope/cofounder-team/issues).
+
+## Built on an open standard
+
+Every skill here follows the [Agent Skills](https://agentskills.io) format, an open standard started by Anthropic and now supported by dozens of AI tools. That is why the same release zips install cleanly in Claude, ChatGPT, and other tools, with nothing Claude-specific inside. See the [Install](#install) section above for the path that matches your tool.
+
 ## How it works under the hood
 
 Three facts make the whole thing work:
@@ -150,10 +160,6 @@ There is a small build step because the same source ships to two places: Claude 
 Because the entries in `~/.claude/skills/` are symlinks into the build (on macOS and Linux), an upgrade rebuilds and re-links in one step. After a `git pull`, run `bash ./setup` again (or use `/cofounder-team-upgrade`, which does it for you) so the latest source is rebuilt. A bare `git pull` on its own updates the source but not the built skill.
 
 On Windows, where symlinks are unreliable, setup falls back to copying the folders. Either way, re-run setup (or the upgrade skill) after a pull to get the new files.
-
-## Feedback
-
-Tell us what works and what does not: email [cofounder@yourstartupadvisor.com](mailto:cofounder@yourstartupadvisor.com). Say "I want to give feedback" to any co-founder or coach and they will draft the email for you. Bugs and install problems can also go in a [GitHub issue](https://github.com/betahope/cofounder-team/issues).
 
 ## Credits
 

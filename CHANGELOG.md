@@ -14,6 +14,10 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+### Changed
+
+- **README leads with the no-terminal install.** A Quick start block sits at the top, and the Claude.ai and ChatGPT steps come before the Claude Code command. Most visitors arrive from LinkedIn, many on phones. Docs only.
+
 ## [0.19.0] - 2026-10-26
 
 ### Added
