@@ -332,8 +332,6 @@ This section is separate from the source material (YC and Techstars guides). It 
 
 **Mission and vision inclusion rule.** Only include a company's mission or vision statement when a question naturally calls for it (like "why are you doing this" or "what is your long-term goal"). Do not force mission and vision into every answer. Each answer should address its specific question and nothing else.
 
-**Each answer addresses its specific question.** No cross-contamination between answers. No extraneous detail. No cramming the best line into every response. Readers notice.
-
 ---
 
 ## When to recommend human help
