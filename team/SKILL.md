@@ -84,6 +84,9 @@ The format:
 - Biggest worry:
 - Based in / customers in:
 - Last updated: [date]
+
+## Decisions and next steps
+(latest five; the team adds these as you decide things)
 ```
 
 ## Boundaries

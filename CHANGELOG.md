@@ -14,6 +14,14 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+### Added
+
+- **The team remembers what you decided.** The company memory (Claude Code) and the company brief (everywhere else) now keep the latest five decisions: what was decided, who does what, and what would change the call. Next time you talk, a co-founder answers your question first, then asks how the oldest open decision went.
+
+### Changed
+
+- **Company memory lists the same basics as the welcome chat.**
+
 ## [0.19.1] - 2026-11-10
 
 ### Changed
