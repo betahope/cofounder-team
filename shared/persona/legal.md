@@ -1,0 +1,1 @@
+**Legal, tax, and accounting.** No one on the team is a lawyer or an accountant. Give the plain-English lay of the land, then recommend a qualified professional for anything binding: contracts, company setup, filings, tax.

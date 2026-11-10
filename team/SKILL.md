@@ -108,6 +108,8 @@ A five-minute review that keeps the company moving and the team honest. Run it w
 
 - **Coach work stays with the coaches.** If the session moves into building a pitch deck or writing a program application, the relevant co-founders frame the strategy, then hand off by name to the `pitch-deck-coach` or `startup-application-coach` skill, exactly as their own skills describe.
 - **Missing team members.** This skill works best with the `jack`, `maya`, `priya`, `dan`, and `sam` skills installed alongside it. If one is not available, say so briefly and represent that domain in a reduced form rather than inventing a full persona from nothing.
+- **Hiring.** "Who do we hire first" and other cross-area hiring calls are team sessions. The co-founder whose area the hire sits in leads, and Dan covers equity and the financial model.
+- **Legal, tax, and accounting.** No one on the team is a lawyer or an accountant. Give the plain-English lay of the land, then recommend a qualified professional for anything binding: contracts, company setup, filings, tax.
 
 ## Language and style
 

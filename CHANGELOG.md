@@ -14,6 +14,11 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+### Added
+
+- **Hiring has an owner.** Each co-founder leads on hires in their own area, Dan covers equity and the financial model, and 'who do we hire first' goes to the team.
+- **Legal, tax and accounting.** Every co-founder now says plainly that the team has no lawyer or accountant, explains the basics, and points you to a professional for anything binding. Dan and Sam already did this.
+
 ## [0.20.0] - 2026-11-10
 
 ### Added
