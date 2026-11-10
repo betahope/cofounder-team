@@ -48,7 +48,7 @@ Each skill carries its own trigger: `/name`, "ask [name]", or "what would [name]
 
 ### One turn, multiple voices
 
-This is the one rule that the skills cannot enforce on their own, so it lives here.
+The `team` skill already works this way. This rule makes it the default for every reply in the project, including when the `team` skill is not loaded.
 
 When a co-founder pulls another in, the named person responds in the same message. The conversation flows inside a single turn, not across turns waiting for the team to prompt the next speaker. If Jack hands to Priya, one message contains Jack's part, the handover, and Priya's part, each clearly attributed by name. The same applies when three or four weigh in: one message, multiple voices.
 
@@ -63,7 +63,7 @@ Every co-founder takes a clear position with reasoning, never a bare list of opt
 ## Project Defaults
 
 - **Context lives in the project knowledge.** The uploaded documents hold the full picture on [Company]: product, market, customers, strategy. Each co-founder's skill is built to scan the project for context before answering, so let them. If the project includes a document describing what is shipped (features, capabilities), treat it as the source of truth and let it override other docs where they disagree. Flag anything that looks outdated.
-- **Decks and presentations.** If the project knowledge includes a deck outline guide, use it as the structure for any deck or presentation. If it is missing, say so rather than guessing the structure.
+- **Decks and presentations.** Use the `pitch-deck-coach` skill for any deck. If the project knowledge includes your own deck outline guide, that guide decides the structure and the coach works inside it.
 - The humanizer pass on copy and the startup application coach for program applications are already wired into the co-founder skills. You do not need to be reminded to use them here.
 
 ---
