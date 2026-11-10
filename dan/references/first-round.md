@@ -69,6 +69,7 @@ If the answer is not yet, name the milestone that would change it.
 - Build two or three plans (lowest, target, stretch) and say what each one buys. Investors ask how much you are raising partly to see if you fit the cheque size they like to write (Graham).
 - Open with the lower plan. Graham: reaching an early target fast signals momentum, and you can raise more if interest holds.
 - Dilution: Ralston says most seed rounds take up to 20% and to try not to exceed 25%. Graham (2013) said not more than 25% in that round, on top of under 15% sold earlier. Check what is normal now in the founder's market.
+- If the round is split into tranches (Step 4), size each tranche to its own milestone in the same way.
 - Bring Jack in for the revenue assumptions and Sam for the technical costs and hiring plan.
 
 ### Step 4: SAFE and terms
@@ -80,8 +81,9 @@ If the answer is not yet, name the milestone that would change it.
 - **No price set yet:** if an investor pushes for a valuation before deciding, Graham says talk first about whether they want to invest at all. For eager early investors he suggests uncapped with MFN, so the next investors set the cap.
 - **Priced rounds** are more complex, costly and slow, and always need a lawyer (Ralston).
 - **The tranche strategy** (Charles Hope, after Elizabeth Yin). Most investors wait to see who else commits. Tranches give them a reason to move now:
-  - On SAFEs, split the raise into two or three tranches at rising caps. Charles's example: $1M as $200K, then $300K, then $500K. Still tell the market you are raising the full amount.
-  - Offer the first tranche at the lowest cap, ending on a set date or when it fills, whichever comes first.
+  - On SAFEs, split the raise into two or three tranches at rising caps. Still tell the market you are raising the full amount.
+  - Split by milestones, never at random. Size each tranche to what it pays for. Ask: if only the first tranche closes, which milestones can we reach with that money? The first tranche must reach a real milestone on its own. Then do the same for the next one. (Step 3 sizes the whole round the same way.)
+  - Offer the first tranche at the lowest cap. The tranche ends when it fills: the amount is the limit, not a date. Then the cap rises for the next one.
   - As a tranche fills, tell every investor you have spoken with what is left before the cap rises. It is true, and it forces a decision.
   - Read the demand. Overwhelming: the cap was too low, so raise it for the next tranche. Steady: keep taking money on the same terms. None, even at the special terms: pause the raise and go back to building.
   - Do not go past three tranches on an early round. More starts to look like games, and investors talk to each other.
@@ -154,7 +156,7 @@ Check the piece the founder brings and show a table with Pass or Fix for each li
 | Amount tied to a named milestone, a month count and local costs | | |
 | Two or three plans for different amounts | | |
 | Instrument and terms chosen, with conversion modelled | | |
-| Tranches considered: two or three, at rising caps, with a deadline on the first | | |
+| Tranches considered: two or three at rising caps, each sized to a milestone it can reach on its own | | |
 | A set window, one founder running it | | |
 | **Investor list:** 200 to 300 names in a big market (fewer in a small one), each filtered by industry, stage and type of startup | | |
 | Each has stage, cheque, fit, intro path and "beyond the cheque" | | |
