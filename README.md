@@ -76,6 +76,23 @@ Curious how the build works? See [CLAUDE.md](CLAUDE.md).
 
 Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, and dozens of other tools also support Agent Skills. Download the zips from the [latest release](https://github.com/betahope/cofounder-team/releases/latest), unzip them, and put each skill folder where your tool keeps skills (its docs will say where, and [agentskills.io](https://agentskills.io) links each tool's setup guide). We build and test on Claude and ChatGPT, so in other tools treat the skills as expected to work rather than guaranteed. If one misbehaves, [open an issue](https://github.com/betahope/cofounder-team/issues).
 
+## What to ask first
+
+Not sure where to start? Try one of these.
+
+1. "Ask the team: what should we focus on for the next 30 days?"
+2. "Jack, who is our ideal first customer, and how do we reach ten of them?"
+3. "Jack, is our price right?"
+4. "Maya, what should we cut from the first version?"
+5. "Maya, help me plan five customer interviews for this week."
+6. "Priya, which one social platform should we use, and what do we post first?"
+7. "Dan, should we raise money now, and how much?"
+8. "Sam, should we build this with no-code or hire a developer?"
+9. "Review my pitch deck." (pitch deck coach)
+10. "Help me answer the YC application questions." (application coach)
+
+Once a week, say "weekly check-in". The team reviews what moved and names the one priority for the week.
+
 ## How the team works together
 
 These five are a team, not five separate advisors. Each co-founder knows the others by name and domain, knows where its own expertise ends, and pulls in whoever is needed rather than guessing outside its lane. Ask Jack something that turns on product design and he brings Maya in. Raise a fundraising angle mid-conversation and Dan steps up. Ask whether to build or buy and Sam takes it. When someone hits the edge of what they know, they say so and point you to the right co-founder instead of bluffing.

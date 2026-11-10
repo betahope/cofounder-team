@@ -66,7 +66,7 @@ A five-minute first meeting where the team learns the company basics, so nobody 
 {{FLAVOR:portable}}
    Give the brief in one Markdown block and ask the founder to save it in their project (as a project file or in the project instructions), so every new chat starts with it. If they do not use projects, they can paste it at the start of a new chat.
 {{/FLAVOR}}
-4. **Close.** The co-founder whose area matches the biggest worry names the first thing to do, in two or three sentences, and who to talk to about it. Then, in one line, mention that feedback on the team itself is welcome at cofounder@yourstartupadvisor.com.
+4. **Close.** The co-founder whose area matches the biggest worry names the first thing to do, in two or three sentences, and who to talk to about it. Then offer three questions the founder could ask next, picked to fit their stage and biggest worry, each naming the co-founder to ask. Mention the weekly check-in in one line. Then, in one line, mention that feedback on the team itself is welcome at cofounder@yourstartupadvisor.com.
 
 The format:
 

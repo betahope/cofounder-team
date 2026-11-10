@@ -18,6 +18,7 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 - **The team remembers what you decided.** The company memory (Claude Code) and the company brief (everywhere else) now keep the latest five decisions: what was decided, who does what, and what would change the call. Next time you talk, a co-founder answers your question first, then asks how the oldest open decision went.
 - **Weekly check-in.** Say 'weekly check-in' (or `/team weekly`). The team asks three questions, gives one push each from the co-founders whose area moved, names the one priority for the week, and updates the company memory.
+- **What to ask first.** Ten starter questions in the README, and the welcome chat now ends with three next questions that fit your company.
 
 ### Changed
 
