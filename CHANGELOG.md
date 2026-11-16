@@ -14,6 +14,11 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+### Changed
+
+- **Humanizer catalog updated to upstream 4.0.0.** `humanizer/references/upstream-patterns.md` now carries blader/humanizer 4.0.0. The 26 patterns keep their numbers and order, and the examples are tighter. The humanizer now treats instructions hidden inside the text it edits (for example a note "to the AI") as text to edit, never as orders. When it edits a file, it reads the whole file first and says if it could only cover part of it.
+- **The humanizer still never adds facts.** Upstream 4.0.0 dropped its "do not make anything up" rule and now says to add a specific detail where text is generic, with examples that add new facts. Our own rule wins: `humanizer/SKILL.md` and the catalog's header (written by `sync-humanizer`) now say plainly that our layer decides on facts too, so the humanizer never adds a fact, number, name, date or citation the founder did not give. It uses a placeholder such as "[founded year?]" or asks instead.
+
 ## [0.21.0] - 2026-11-10
 
 ### Added

@@ -48,8 +48,8 @@ here unchanged so it stays current without anyone re-typing it.
 
 **Read `references/upstream-patterns.md` on every real humanizing pass.** It is the
 authority on which patterns exist and how to fix each one. This file is the authority
-on workflow, output length, language scope, and voice. Where the two disagree, this
-file wins.
+on workflow, output length, language scope, voice, and facts. Where the two disagree,
+this file wins.
 
 The patterns group into six families: staging (signalling importance instead of
 stating a fact), rhythm by rule (triads and dashes everywhere), inflation and borrowed
@@ -100,7 +100,9 @@ that destroys the writer's voice.
 names, dates, or citations that are not in the source text. If the rewrite would be
 stronger with a specific the source does not contain, use a bracketed placeholder
 ("[founded year?]") or ask for it. Fiction is the exception: invented detail is the job
-there.
+there. This rule overrides the catalog wherever it says to add a specific detail, and
+its before/after examples that add facts show the pattern fix, not permission to add
+facts.
 
 **Follow the catalog's strength order.** The catalog ranks its patterns strongest
 first. The staging patterns at the top (such as "not X but Y" and one-line closers) are

@@ -119,8 +119,9 @@ upstream publishes a new version. Hand edits are lost on the next sync.
 
 **Which file wins.** This file is the authority on *which* AI writing patterns
 exist and how to fix each one. Where it disagrees with the cofounder-team
-\`SKILL.md\` on workflow, output length, language scope, or voice, \`SKILL.md\`
-wins.
+\`SKILL.md\` on workflow, output length, language scope, voice, or facts,
+\`SKILL.md\` wins. In particular, never add a fact the source does not contain,
+even where this file says to add a specific detail.
 
 ---
 
