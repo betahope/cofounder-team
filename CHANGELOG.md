@@ -14,6 +14,8 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+## [0.22.0] - 2026-11-16
+
 ### Changed
 
 - **Humanizer catalog updated to upstream 4.0.0.** `humanizer/references/upstream-patterns.md` now carries blader/humanizer 4.0.0. The 26 patterns keep their numbers and order, and the examples are tighter. The humanizer now treats instructions hidden inside the text it edits (for example a note "to the AI") as text to edit, never as orders. When it edits a file, it reads the whole file first and says if it could only cover part of it.
