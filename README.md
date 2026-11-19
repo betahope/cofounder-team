@@ -2,7 +2,7 @@
 
 *Your AI co-founder team, wherever you work: Claude, ChatGPT, and any tool that supports Agent Skills.*
 
-A set of portable [Agent Skills](https://agentskills.io) that give any founder a virtual co-founding team: a sales/marketing/growth co-founder, a product/UX co-founder, a creative/social co-founder, a fundraising co-founder, and a technical co-founder, plus a pitch deck coach, a startup application coach, and a humanizer that strips AI tells out of any draft.
+A set of portable [Agent Skills](https://agentskills.io) that give any founder a virtual co-founding team: a sales/marketing/growth co-founder, a product/UX co-founder, a creative/social co-founder, a fundraising co-founder, a technical co-founder, and a finance, accounting, and tax co-founder, plus a pitch deck coach, a startup application coach, and a humanizer that strips AI tells out of any draft.
 
 They work as a team, not as separate tools you switch between. More on that below.
 
@@ -37,7 +37,7 @@ Pick the path that matches where you work.
 Works on any OS, no terminal needed.
 
 1. Go to the [latest release](https://github.com/betahope/cofounder-team/releases/latest).
-2. Download the `.zip` for each skill you want (jack, maya, priya, dan, sam, team, pitch-deck-coach, startup-application-coach, humanizer).
+2. Download the `.zip` for each skill you want (jack, maya, priya, dan, sam, elena, team, pitch-deck-coach, startup-application-coach, humanizer).
 3. In Claude.ai, open **Customize → Skills** from the left sidebar, click **Upload**, and drop each zip in.
 4. Start a chat and say "welcome chat". The team spends five minutes learning the basics about your company and gives you a short company brief. Save it in your project so every new chat starts from it.
 
@@ -88,14 +88,15 @@ Not sure where to start? Try one of these.
 6. "Priya, which one social platform should we use, and what do we post first?"
 7. "Dan, should we raise money now, and how much?"
 8. "Sam, should we build this with no-code or hire a developer?"
-9. "Review my pitch deck." (pitch deck coach)
-10. "Help me answer the YC application questions." (application coach)
+9. "Elena, I just registered for VAT. What do I need to do each month?"
+10. "Review my pitch deck." (pitch deck coach)
+11. "Help me answer the YC application questions." (application coach)
 
 Once a week, say "weekly check-in". The team reviews what moved and names the one priority for the week.
 
 ## How the team works together
 
-These five are a team, not five separate advisors. Each co-founder knows the others by name and domain, knows where its own expertise ends, and pulls in whoever is needed rather than guessing outside its lane. Ask Jack something that turns on product design and he brings Maya in. Raise a fundraising angle mid-conversation and Dan steps up. Ask whether to build or buy and Sam takes it. When someone hits the edge of what they know, they say so and point you to the right co-founder instead of bluffing.
+These six are a team, not six separate advisors. Each co-founder knows the others by name and domain, knows where its own expertise ends, and pulls in whoever is needed rather than guessing outside its lane. Ask Jack something that turns on product design and he brings Maya in. Raise a fundraising angle mid-conversation and Dan steps up. Ask whether to build or buy and Sam takes it. Ask about VAT, the budget, or a tax deadline and Elena takes it. When someone hits the edge of what they know, they say so and point you to the right co-founder instead of bluffing.
 
 This is built into the skills, not bolted on. Every persona carries a Boundaries section that names the others and spells out when to hand off, so the team stays in its lanes without you having to direct traffic. And when a question deserves more than one voice, the `team` skill convenes them: say "ask the team" (or `/team` in Claude Code) and the right co-founders answer together in a single reply, each voice attributed by name, ending in one clear recommendation. On Claude.ai, the project instructions template adds the same behavior at the project level.
 
@@ -108,6 +109,7 @@ Each skill is a folder with a `SKILL.md` inside. Once installed, trigger them by
 - **priya** — Creative, content, and social media co-founder. Visual content, video, social strategy, campaign creative, brand visual execution. Includes a step-by-step guide to launch and demo videos that bring in users.
 - **dan** — Fundraising, capital strategy, and investor relations co-founder. Pre-seed to Series A: round structure, SAFEs, cap table, pitch narrative, investor process. Includes a step-by-step guide to raising a first round.
 - **sam** — Technical co-founder, for founders who do not code. Build or buy, which tools to use, hosting and AI costs, hiring developers and agencies, security basics. Gives technical judgement; does not write your code. Includes a step-by-step guide to hiring a developer or agency.
+- **elena** — Finance, accounting, and tax co-founder, for a startup in any country. Bookkeeping, VAT and sales tax, tax deadlines, budgets, cash flow, and working with your accountant. Helps you do routine filings yourself and says when you need an accountant. Includes a country guide and a step-by-step guide to setting up your company's money.
 - **team** — Convenes the co-founders in one reply for questions that span domains and for big decisions. Each voice named, one recommendation at the end. Also runs the five-minute welcome chat. Runs a five-minute weekly check-in (`/team weekly`).
 - **pitch-deck-coach** — Helps you plan, critique, and rewrite pitch decks for investors, accelerators, demo days, customers, or partners.
 - **startup-application-coach** — Helps you write stronger applications to accelerators, incubators, and pre-accelerators (YC, Techstars, EF, Antler, and others).

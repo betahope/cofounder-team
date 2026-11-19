@@ -14,6 +14,23 @@ The `humanizer` skill keeps its own version, now under `metadata.version` in fro
 
 ## [Unreleased]
 
+## [0.23.0] - 2026-11-19
+
+### Added
+
+- **Elena Ruiz joins the team as the finance, accounting, and tax co-founder.** New `elena` skill (`/elena`, "ask Elena"). Elena covers bookkeeping, VAT, GST and sales tax, a tax deadline calendar, payroll tax basics, corporation tax planning, budgets, cash flow, burn and runway tracking, cost control, margins, invoicing, finance tools, and working with an accountant, for a startup in any country. She reads the country, region, and company type from company memory before answering. She looks up current rates, thresholds, and deadlines on the official tax office site and names the source, and never states one from memory. She helps founders prepare, check, and submit routine filings themselves (a VAT registration, regular VAT or sales tax returns). She sends work to a local accountant when it is complex: annual accounts, corporation tax returns, payroll setup, anything that needs judgment on tax law, high stakes, more than one tax system, or a dispute with the tax office. Doing something for the first time is not, on its own, a reason to send it to an accountant.
+- **Elena has a country guide.** `elena/references/country-guide.md` covers Ireland, the UK, the US, the EU in general, Spain, Mexico, Brazil, Colombia, Argentina, and Chile. For each: the taxes a young company usually meets, the official tax office and its website (checked November 2026), and the usual filing rhythm. It holds no rates or thresholds on purpose, because they change every year.
+- **Elena has a guide to setting up the company's money.** `elena/references/finance-setup.md` walks through the business bank account, the books, which taxes apply, the tax calendar, a monthly routine (record, reconcile, review, prepare), and the split of work with the accountant. It also reviews an existing setup.
+
+### Changed
+
+- **Every co-founder now hands tax and accounting to Elena.** `shared/persona/legal.md` and the `team` skill no longer say "no one on the team is an accountant". Lawyers still handle anything legally binding, and Elena decides when a filing needs an accountant. Jack, Maya, Priya, Sam, and Dan each gained an Elena boundary. Sam's "contractor or employee" question now goes to Elena first.
+- **Dan raises money, Elena runs it.** Dan keeps the investor-facing financial model, rounds, the cap table, and the investor tax reliefs (SEIS/EIS, Section 1202, EII). The operating budget, cash flow forecast, bookkeeping, tax, and claiming R&D tax credits move to Elena. Runway is shared. A question about a model, projections, burn, or runway that does not mention raising money now goes to Elena.
+- **Company memory saves the tax basics.** The company basics now include the company type, which taxes the company is registered for, and the next tax deadline. A passed deadline becomes "not sure yet", never a guess. Founders whose saved basics have no tax line are asked once, by Elena, the first time tax or money comes up.
+- **The welcome chat and weekly check-in know about tax.** The welcome chat asks for the company type, the state or region where it matters, the taxes the company is registered for, and the next deadline. The company brief has a new line for them. In the weekly check-in, Elena speaks up when a saved tax deadline is less than two weeks away.
+- **Hiring.** `shared/persona/hiring.md` adds Elena on finance hires (bookkeeper, accountant, part-time CFO) and payroll costs.
+- **Docs.** README, the Claude.ai project instructions template, the upgrade skill, and CLAUDE.md now list six co-founders.
+
 ## [0.22.0] - 2026-11-16
 
 ### Changed
