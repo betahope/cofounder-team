@@ -4,20 +4,20 @@ Use this to orient a founder fast: which taxes a young company usually meets in 
 
 **No rates, thresholds, or exact dates here, on purpose.** They change every year. Before telling a founder a number, check it on the official site listed below, and name the site and the date you checked. If you cannot search the web, give the founder the site and tell them exactly what to look for.
 
-Tax office names and websites were checked in November 2026. If a site does not load or looks different, search for the official office by name and use only a government domain. Tax offices warn about fake sites that copy them.
+Tax office names, websites, and filing rhythms were checked on the official sites on 19 November 2026. If a site does not load or looks different, search for the official office by name and use only a government domain. Tax offices warn about fake sites that copy them.
 
 ## Ireland
 
 - **Office:** Revenue (the Revenue Commissioners), revenue.ie. Most filing is online through ROS (Revenue Online Service).
-- **VAT:** register once sales pass the threshold, or earlier by choice. Returns (the VAT3) are usually every two months. Revenue can set a different rhythm, so the periods shown on the company's own ROS record are the ones that count.
-- **Payroll:** PAYE, PRSI, and USC are reported to Revenue every time someone is paid, and paid over monthly.
-- **Corporation tax:** a yearly return (the CT1), plus preliminary tax paid during the year for most companies.
-- **Also:** the annual return to the Companies Registration Office (CRO) is a company filing, not a tax filing, but it often needs the accountant's accounts.
+- **VAT:** register once sales pass the threshold, or earlier by choice. Returns (the VAT3) are usually every two months. Revenue lets businesses with a small VAT bill file less often (every four or six months) and can allow monthly returns, so the periods shown on the company's own ROS record are the ones that count.
+- **Payroll:** PAYE, PRSI, and USC are reported to Revenue every time someone is paid. Payment is usually monthly; small employers can apply to pay quarterly.
+- **Corporation tax:** a yearly return (the CT1), plus preliminary tax paid during the year for most companies. A new company with a small tax bill may not owe preliminary tax in its first period.
+- **Also:** the annual return (Form B1) to the Companies Registration Office (CRO), cro.ie, is a company filing, not a tax filing. The first one is due six months after the company is set up, without accounts. Later ones carry the financial statements, so they usually need the accountant.
 
 ## United Kingdom
 
 - **Office:** HMRC, gov.uk.
-- **VAT:** returns are usually quarterly and must be filed through Making Tax Digital compatible software, not by typing figures into a website.
+- **VAT:** returns are usually quarterly (some businesses file monthly or yearly) and must be filed through Making Tax Digital compatible software, not by typing figures into a website.
 - **Payroll:** PAYE through RTI (Real Time Information), reported every time someone is paid.
 - **Corporation tax:** a yearly return (the CT600).
 - **Also:** annual accounts and a confirmation statement go to Companies House. These are company filings, usually prepared by the accountant.
@@ -41,39 +41,40 @@ Tax office names and websites were checked in November 2026. If a site does not 
 
 - **Office:** Agencia Tributaria (AEAT). Online filing at sede.agenciatributaria.gob.es, with a digital certificate, Cl@ve, or DNIe.
 - **VAT (IVA):** the Modelo 303 return, usually quarterly (monthly for larger companies). It must be filed even in a quarter with no activity.
-- **Withholding:** income tax withheld from salaries and some suppliers is declared usually every quarter.
-- **Corporation tax (Impuesto sobre Sociedades):** a yearly return, plus advance payments during the year for some companies.
+- **Withholding:** income tax withheld from salaries and some suppliers (Modelo 111) is declared every quarter, or monthly for large companies.
+- **Corporation tax (Impuesto sobre Sociedades):** a yearly return (Modelo 200), plus three advance payments during the year (Modelo 202) for companies that owe them.
 - **Social security** contributions go to the Seguridad Social, a separate body.
 
 ## Mexico
 
 - **Office:** SAT (Servicio de Administración Tributaria). Filing and services at sat.gob.mx.
-- **Taxes:** VAT (IVA) and income tax (ISR) declared usually every month, plus a yearly declaration.
+- **Taxes:** VAT (IVA) and provisional income tax (ISR) payments, usually every month (some companies are allowed to pay less often), plus a yearly income tax declaration.
 - **Electronic invoices (CFDI)** are required for sales and are issued through the SAT's systems or an authorised provider.
 
 ## Brazil
 
 - **Federal office:** Receita Federal, gov.br/receitafederal. Online services at servicos.receitafederal.gov.br.
 - **Several levels of tax:** federal taxes, a state tax on goods (ICMS), and a municipal tax on services (ISS). Small companies can often join Simples Nacional, a simplified regime that combines several taxes into one monthly payment.
-- **Electronic invoices** are required.
+- **Electronic invoices** are required: NF-e for goods and NFS-e for services.
+- **A tax reform is under way.** From 2026, new taxes (CBS and IBS) are phasing in to replace several of the current ones, in stages over several years. Check what applies in the current year before anything else.
 - **Under the filing rule:** Brazil's system is complex enough that almost every company works with a local accountant (contador) from the start. Recommend one early.
 
 ## Colombia
 
 - **Office:** DIAN (Dirección de Impuestos y Aduanas Nacionales), dian.gov.co.
-- **Taxes:** VAT (IVA), usually every two or four months depending on the company's size; income tax (renta) yearly; withholding (retención en la fuente) usually monthly.
+- **Taxes:** VAT (IVA), every two or four months depending on the company's size (yearly in some cases); income tax (renta) yearly; withholding (retención en la fuente) monthly.
 - **Electronic invoices (factura electrónica)** are required, through DIAN or an authorised provider.
 
 ## Argentina
 
 - **Office:** ARCA (Agencia de Recaudación y Control Aduanero), arca.gob.ar. ARCA replaced AFIP in 2024; older guides still say AFIP.
-- **Taxes:** VAT (IVA) usually monthly; income tax (Ganancias) yearly. Very small businesses may use the simplified Monotributo regime. Each province also charges its own tax on gross income (Ingresos Brutos).
+- **Taxes:** VAT (IVA) monthly; income tax (Ganancias) yearly. Very small businesses may use the simplified Monotributo regime. Each province also charges its own tax on gross income (Ingresos Brutos), declared monthly; a company selling in several provinces files under a shared scheme (Convenio Multilateral).
 - **Electronic invoices** are required.
 
 ## Chile
 
-- **Office:** SII (Servicio de Impuestos Internos), sii.cl. Part of the site is in English for foreign companies.
-- **Taxes:** VAT (IVA) declared usually every month (Formulario 29); income tax yearly.
+- **Office:** SII (Servicio de Impuestos Internos), sii.cl. It runs an English-language portal for foreign companies selling digital services into Chile.
+- **Taxes:** VAT (IVA) declared every month (Formulario 29), from the month the company starts trading, even with no sales; income tax yearly (Formulario 22).
 - **Electronic invoices** are required.
 
 ## Country not listed
